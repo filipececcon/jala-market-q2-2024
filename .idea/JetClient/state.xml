@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JetClientState">
+    <option name="folders">
+      <list>
+        <folderState>
+          <option name="folders">
+            <list>
+              <folderState>
+                <option name="id" value="004872c6-4d6e-47c8-b306-274d507a18a8" />
+                <option name="name" value="Products" />
+                <option name="requests">
+                  <list>
+                    <requestState>
+                      <option name="body">
+                        <bodyState>
+                          <option name="raw" value="{&#10;  &quot;Name&quot;: &quot;arroz&quot;,&#10;  &quot;Price&quot;: 4.99&#10;}" />
+                          <option name="type" value="JSON" />
+                        </bodyState>
+                      </option>
+                      <option name="headers">
+                        <list>
+                          <headerState>
+                            <option name="key" value="Content-Type" />
+                            <option name="value" value="application/json" />
+                          </headerState>
+                        </list>
+                      </option>
+                      <option name="id" value="65090908-32bc-4c8d-9ba1-6a01a14fe8a7" />
+                      <option name="method" value="POST" />
+                      <option name="name" value="CreateProduct" />
+                      <option name="url" value="http://localhost:8080/products" />
+                    </requestState>
+                  </list>
+                </option>
+                <option name="sortWeight" value="1000000" />
+              </folderState>
+            </list>
+          </option>
+          <option name="id" value="7947a92e-4f15-47e1-8713-7ef51aaf8603" />
+          <option name="name" value="MarketAPI" />
+          <option name="sortWeight" value="1000000" />
+          <option name="syncProperties">
+            <synchronizationPropertiesState>
+              <option name="folderPath" value="$PROJECT_DIR$/.jetclient" />
+            </synchronizationPropertiesState>
+          </option>
+        </folderState>
+      </list>
+    </option>
+    <option name="id" value="8747a17e-7200-4391-9025-78a88ac98fd8" />
+  </component>
+</project>
