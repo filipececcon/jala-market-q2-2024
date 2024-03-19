@@ -1,6 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="JetClientState">
+    <option name="environmentGroups">
+      <list>
+        <environmentGroupState>
+          <option name="environments">
+            <list>
+              <environmentState>
+                <option name="id" value="local" />
+                <option name="name" value="LOCAL" />
+              </environmentState>
+            </list>
+          </option>
+          <option name="id" value="new_group" />
+          <option name="name" value="New Group" />
+        </environmentGroupState>
+      </list>
+    </option>
     <option name="folders">
       <list>
         <folderState>
@@ -14,7 +30,7 @@
                     <requestState>
                       <option name="body">
                         <bodyState>
-                          <option name="raw" value="{&#10;  &quot;Name&quot;: &quot;arroz&quot;,&#10;  &quot;Price&quot;: 4.99&#10;}" />
+                          <option name="raw" value="{&#10;  &quot;name&quot;: &quot;manteiga&quot;,&#10;  &quot;price&quot;: 4.99&#10;}" />
                           <option name="type" value="JSON" />
                         </bodyState>
                       </option>
@@ -28,8 +44,46 @@
                       </option>
                       <option name="id" value="65090908-32bc-4c8d-9ba1-6a01a14fe8a7" />
                       <option name="method" value="POST" />
-                      <option name="name" value="CreateProduct" />
+                      <option name="name" value="Create" />
                       <option name="url" value="http://localhost:8080/products" />
+                    </requestState>
+                    <requestState>
+                      <option name="id" value="3650ab41-b320-40d9-bb2a-f4cf49276393" />
+                      <option name="method" value="GET" />
+                      <option name="name" value="GetById" />
+                      <option name="url" value="http://localhost:8080/products/b064114a-5e1d-4949-ad46-ef8180b94df8" />
+                    </requestState>
+                    <requestState>
+                      <option name="id" value="54f9f836-f6c7-4b85-8802-97d70d4ff339" />
+                      <option name="method" value="GET" />
+                      <option name="name" value="GetAll" />
+                      <option name="url" value="http://localhost:8080/products" />
+                    </requestState>
+                    <requestState>
+                      <option name="body">
+                        <bodyState>
+                          <option name="raw" value="{&#10;  &quot;Name&quot;: &quot;sal&quot;,&#10;  &quot;Price&quot;: 2.99&#10;}" />
+                          <option name="type" value="JSON" />
+                        </bodyState>
+                      </option>
+                      <option name="headers">
+                        <list>
+                          <headerState>
+                            <option name="key" value="Content-Type" />
+                            <option name="value" value="application/json" />
+                          </headerState>
+                        </list>
+                      </option>
+                      <option name="id" value="d316bbc9-387f-4756-9d2d-f5ca331840fd" />
+                      <option name="method" value="PUT" />
+                      <option name="name" value="Update" />
+                      <option name="url" value="http://localhost:8080/products/b064114a-5e1d-4949-ad46-ef8180b94df8" />
+                    </requestState>
+                    <requestState>
+                      <option name="id" value="0959cdb4-8363-4bd3-b36e-08063921b539" />
+                      <option name="method" value="DELETE" />
+                      <option name="name" value="Delete" />
+                      <option name="url" value="http://localhost:8080/products/958b7044-1a1f-40c3-a8d3-1c21472b59e2" />
                     </requestState>
                   </list>
                 </option>
@@ -49,5 +103,10 @@
       </list>
     </option>
     <option name="id" value="8747a17e-7200-4391-9025-78a88ac98fd8" />
+    <option name="selectedEnvironmentIds">
+      <set>
+        <option value="local" />
+      </set>
+    </option>
   </component>
 </project>

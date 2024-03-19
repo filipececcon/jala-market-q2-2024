@@ -1,8 +1,8 @@
 package com.sd3.market.dtos;
 
-public class ProductDto {
+import jakarta.validation.constraints.NotBlank;
+import jakarta.validation.constraints.Positive;
 
-    public String Name;
+public record ProductDto(@NotBlank String name, @Positive Double price) {
 
-    public double Price;
 }

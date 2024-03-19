@@ -5,7 +5,7 @@ services:
     image: mysql
     restart: always
     environment:
-      MYSQL_DATABASE: 'db'
+      MYSQL_DATABASE: 'market'
       MYSQL_USER: 'user'
       MYSQL_PASSWORD: 'user'
       MYSQL_ROOT_PASSWORD: 'root'
