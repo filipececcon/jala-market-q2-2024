@@ -1647,6 +1647,66 @@
             </responseState>
           </option>
         </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1710851320349" />
+          <option name="id" value="76f5c747-7526-4f77-a6fd-6fd6571bc231" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="{&#10;  &quot;name&quot;: &quot;manteiga&quot;,&#10;  &quot;price&quot;: -4.99&#10;}" />
+                  <option name="type" value="JSON" />
+                </bodyState>
+              </option>
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="65090908-32bc-4c8d-9ba1-6a01a14fe8a7" />
+              <option name="method" value="POST" />
+              <option name="name" value="Create" />
+              <option name="url" value="http://localhost:8080/products" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJ0aW1lc3RhbXAiOiIyMDI0LTAzLTE5VDEyOjI4OjQwLjMzMyswMDowMCIsInN0YXR1cyI6NDAwLCJlcnJvciI6IkJhZCBSZXF1ZXN0IiwicGF0aCI6Ii9wcm9kdWN0cyJ9" />
+              <option name="bodyString" value="{&#10;  &quot;timestamp&quot; : &quot;2024-03-19T12:28:40.333+00:00&quot;,&#10;  &quot;status&quot; : 400,&#10;  &quot;error&quot; : &quot;Bad Request&quot;,&#10;  &quot;path&quot; : &quot;/products&quot;&#10;}" />
+              <option name="code" value="400" />
+              <option name="contentType" value="application/json" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Transfer-Encoding" />
+                    <option name="value" value="chunked" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Tue, 19 Mar 2024 12:28:40 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="close" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="76f5c747-7526-4f77-a6fd-6fd6571bc231" />
+              <option name="message" value="Bad Request" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;timestamp&quot;:&quot;2024-03-19T12:28:40.333+00:00&quot;,&quot;status&quot;:400,&quot;error&quot;:&quot;Bad Request&quot;,&quot;path&quot;:&quot;/products&quot;}" />
+              <option name="size" value="99" />
+              <option name="time" value="178" />
+            </responseState>
+          </option>
+        </requestHistoryState>
       </list>
     </option>
   </component>
