@@ -3,14 +3,15 @@ package com.sd3.market.entities;
 import jakarta.persistence.*;
 
 import java.io.Serializable;
+import java.time.LocalDateTime;
 import java.util.Date;
 import java.util.UUID;
 
 @MappedSuperclass
-public abstract class AbstractEntity implements Serializable {
+public abstract class AbstractEntity {
 
     AbstractEntity(){
-        Date now = new Date();
+        LocalDateTime now = LocalDateTime.now();
         CreatedAt = now;
         UpdatedAt = now;
         Active = true;
@@ -21,9 +22,9 @@ public abstract class AbstractEntity implements Serializable {
     @Column(name = "ID")
     private UUID Id;
     @Column(name = "DT_CREATED_AT")
-    private final Date CreatedAt;
+    private final LocalDateTime CreatedAt;
     @Column(name = "DT_UPDATED_AT")
-    private Date UpdatedAt;
+    private LocalDateTime UpdatedAt;
     @Column(name = "ST_ACTIVE")
     private Boolean Active;
 
@@ -31,15 +32,19 @@ public abstract class AbstractEntity implements Serializable {
         return Id;
     }
 
-    public Date getCreatedAt() {
+    public void setId(UUID id) {
+        Id = id;
+    }
+
+    public LocalDateTime getCreatedAt() {
         return CreatedAt;
     }
 
-    public Date getUpdatedAt() {
+    public LocalDateTime getUpdatedAt() {
         return UpdatedAt;
     }
 
-    public void setUpdatedAt(Date updatedAt) {
+    public void setUpdatedAt(LocalDateTime updatedAt) {
         UpdatedAt = updatedAt;
     }
 

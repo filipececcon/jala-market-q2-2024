@@ -1,15 +1,17 @@
 package com.sd3.market.controllers;
 
-import com.sd3.market.dtos.ProductDto;
-import com.sd3.market.entities.Product;
+import com.sd3.market.dto.ProductRequestDto;
+import com.sd3.market.dto.CreateProductResponseDto;
+import com.sd3.market.dto.ProductResponseDto;
 import com.sd3.market.repositories.ProductRepository;
+import com.sd3.market.entities.Product;
+import com.sd3.market.services.ProductService;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import javax.swing.text.html.parser.Entity;
 import java.util.List;
 import java.util.Optional;
 import java.util.UUID;
@@ -19,45 +21,39 @@ import java.util.UUID;
 public class ProductController {
 
     @Autowired
+    private ProductService service;
+
+
+    @Autowired
     private ProductRepository repository;
 
 
     @PostMapping
-    public ResponseEntity<Product> create(@RequestBody @Valid ProductDto dto){
+    public ResponseEntity<CreateProductResponseDto> create(@RequestBody @Valid ProductRequestDto dto){
 
-        Product prd = new Product();
+        CreateProductResponseDto response = service.create(dto);
 
-        prd.setName(dto.name());
-        prd.setPrice(dto.price());
-
-        Product result = repository.save(prd);
-
-        return ResponseEntity.status(HttpStatus.CREATED).body(result);
+        return ResponseEntity.status(HttpStatus.CREATED).body(response);
     }
 
     @GetMapping("/{id}")
-    public ResponseEntity<Product> get(@PathVariable(value = "id") UUID id){
+    public ResponseEntity<ProductResponseDto> get(@PathVariable(value = "id") UUID id){
 
-        Optional<Product> result =  repository.findById(id);
+        ProductResponseDto result = service.getById(id);
 
-        if(result.isEmpty()) return ResponseEntity.status(HttpStatus.NOT_FOUND).body(null);
+        if(result == null) return ResponseEntity.status(HttpStatus.NOT_FOUND).body(null);
 
-        return ResponseEntity.status(HttpStatus.OK).body(result.get());
+        return ResponseEntity.status(HttpStatus.OK).body(result);
     }
 
     @GetMapping
-    public ResponseEntity<List<Product>> getAll(){
+    public ResponseEntity<List<ProductResponseDto>> getAll(){
 
-        List<Product> results =  repository.findAll();
-
-       //if(results.isEmpty()) return ResponseEntity.status(HttpStatus.NOT_FOUND).body(null);
-
-        return ResponseEntity.status(HttpStatus.OK).body(results);
-
+        return ResponseEntity.status(HttpStatus.OK).body(service.getAll());
     }
 
     @PutMapping("/{id}")
-    public ResponseEntity<Product> update(@PathVariable(value = "id") UUID id, @RequestBody ProductDto dto){
+    public ResponseEntity<Product> update(@PathVariable(value = "id") UUID id, @RequestBody ProductRequestDto dto){
 
         Optional<Product> result = repository.findById(id);
 
@@ -72,7 +68,7 @@ public class ProductController {
     }
 
     @DeleteMapping("/{id}")
-    public ResponseEntity<Entity> delete(@PathVariable(value = "id") UUID id){
+    public ResponseEntity<Product> delete(@PathVariable(value = "id") UUID id){
 
         Optional<Product> result = repository.findById(id);
 
