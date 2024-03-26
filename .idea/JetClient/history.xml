@@ -360,106 +360,6 @@
           </option>
         </requestHistoryState>
         <requestHistoryState>
-          <option name="dateTime" value="1710849414060" />
-          <option name="id" value="31000dd3-89d5-437b-9a4c-338230da60d5" />
-          <option name="request">
-            <requestState>
-              <option name="id" value="54f9f836-f6c7-4b85-8802-97d70d4ff339" />
-              <option name="method" value="GET" />
-              <option name="name" value="GetAll" />
-              <option name="url" value="http://localhost:8080/products" />
-            </requestState>
-          </option>
-          <option name="response">
-            <responseState>
-              <option name="bodyBytesBase64" value="W3sibmFtZSI6InNvamEiLCJwcmljZSI6NC45OSwiaWQiOiJiMDY0MTE0YS01ZTFkLTQ5NDktYWQ0Ni1lZjgxODBiOTRkZjgiLCJjcmVhdGVkQXQiOiIyMDI0LTAzLTE5VDExOjUyOjI2Ljk0OSswMDowMCIsInVwZGF0ZWRBdCI6IjIwMjQtMDMtMTlUMTE6NTI6MjYuOTQ5KzAwOjAwIiwiYWN0aXZlIjp0cnVlfSx7Im5hbWUiOiJhcnJveiIsInByaWNlIjo0Ljk5LCJpZCI6ImU3NjRlNzUyLTY1YTItNDYyOC05MzJhLTdiZjA2MzA2ZTYxMiIsImNyZWF0ZWRBdCI6IjIwMjQtMDMtMTlUMTE6NDg6NDIuNDc1KzAwOjAwIiwidXBkYXRlZEF0IjoiMjAyNC0wMy0xOVQxMTo0ODo0Mi40NzUrMDA6MDAiLCJhY3RpdmUiOnRydWV9XQ==" />
-              <option name="bodyString" value="[&#10;  {&#10;    &quot;name&quot; : &quot;soja&quot;,&#10;    &quot;price&quot; : 4.99,&#10;    &quot;id&quot; : &quot;b064114a-5e1d-4949-ad46-ef8180b94df8&quot;,&#10;    &quot;createdAt&quot; : &quot;2024-03-19T11:52:26.949+00:00&quot;,&#10;    &quot;updatedAt&quot; : &quot;2024-03-19T11:52:26.949+00:00&quot;,&#10;    &quot;active&quot; : true&#10;  },&#10;  {&#10;    &quot;name&quot; : &quot;arroz&quot;,&#10;    &quot;price&quot; : 4.99,&#10;    &quot;id&quot; : &quot;e764e752-65a2-4628-932a-7bf06306e612&quot;,&#10;    &quot;createdAt&quot; : &quot;2024-03-19T11:48:42.475+00:00&quot;,&#10;    &quot;updatedAt&quot; : &quot;2024-03-19T11:48:42.475+00:00&quot;,&#10;    &quot;active&quot; : true&#10;  }&#10;]" />
-              <option name="code" value="200" />
-              <option name="contentType" value="application/json" />
-              <option name="headers">
-                <list>
-                  <headerState>
-                    <option name="key" value="Content-Type" />
-                    <option name="value" value="application/json" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Transfer-Encoding" />
-                    <option name="value" value="chunked" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Date" />
-                    <option name="value" value="Tue, 19 Mar 2024 11:56:54 GMT" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Keep-Alive" />
-                    <option name="value" value="timeout=60" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Connection" />
-                    <option name="value" value="keep-alive" />
-                  </headerState>
-                </list>
-              </option>
-              <option name="id" value="31000dd3-89d5-437b-9a4c-338230da60d5" />
-              <option name="message" value="OK" />
-              <option name="prettyResponseType" value="JSON" />
-              <option name="rawBodyString" value="[{&quot;name&quot;:&quot;soja&quot;,&quot;price&quot;:4.99,&quot;id&quot;:&quot;b064114a-5e1d-4949-ad46-ef8180b94df8&quot;,&quot;createdAt&quot;:&quot;2024-03-19T11:52:26.949+00:00&quot;,&quot;updatedAt&quot;:&quot;2024-03-19T11:52:26.949+00:00&quot;,&quot;active&quot;:true},{&quot;name&quot;:&quot;arroz&quot;,&quot;price&quot;:4.99,&quot;id&quot;:&quot;e764e752-65a2-4628-932a-7bf06306e612&quot;,&quot;createdAt&quot;:&quot;2024-03-19T11:48:42.475+00:00&quot;,&quot;updatedAt&quot;:&quot;2024-03-19T11:48:42.475+00:00&quot;,&quot;active&quot;:true}]" />
-              <option name="size" value="352" />
-              <option name="time" value="290" />
-            </responseState>
-          </option>
-        </requestHistoryState>
-        <requestHistoryState>
-          <option name="dateTime" value="1710849809169" />
-          <option name="id" value="be88908e-712e-4ecb-8f18-fe56396f04c8" />
-          <option name="request">
-            <requestState>
-              <option name="id" value="54f9f836-f6c7-4b85-8802-97d70d4ff339" />
-              <option name="method" value="GET" />
-              <option name="name" value="GetAll" />
-              <option name="url" value="http://localhost:8080/products" />
-            </requestState>
-          </option>
-          <option name="response">
-            <responseState>
-              <option name="bodyBytesBase64" value="W3sibmFtZSI6InNvamEiLCJwcmljZSI6NC45OSwiaWQiOiJiMDY0MTE0YS01ZTFkLTQ5NDktYWQ0Ni1lZjgxODBiOTRkZjgiLCJjcmVhdGVkQXQiOiIyMDI0LTAzLTE5VDExOjUyOjI2Ljk0OSswMDowMCIsInVwZGF0ZWRBdCI6IjIwMjQtMDMtMTlUMTE6NTI6MjYuOTQ5KzAwOjAwIiwiYWN0aXZlIjp0cnVlfSx7Im5hbWUiOiJhcnJveiIsInByaWNlIjo0Ljk5LCJpZCI6ImU3NjRlNzUyLTY1YTItNDYyOC05MzJhLTdiZjA2MzA2ZTYxMiIsImNyZWF0ZWRBdCI6IjIwMjQtMDMtMTlUMTE6NDg6NDIuNDc1KzAwOjAwIiwidXBkYXRlZEF0IjoiMjAyNC0wMy0xOVQxMTo0ODo0Mi40NzUrMDA6MDAiLCJhY3RpdmUiOnRydWV9XQ==" />
-              <option name="bodyString" value="[&#10;  {&#10;    &quot;name&quot; : &quot;soja&quot;,&#10;    &quot;price&quot; : 4.99,&#10;    &quot;id&quot; : &quot;b064114a-5e1d-4949-ad46-ef8180b94df8&quot;,&#10;    &quot;createdAt&quot; : &quot;2024-03-19T11:52:26.949+00:00&quot;,&#10;    &quot;updatedAt&quot; : &quot;2024-03-19T11:52:26.949+00:00&quot;,&#10;    &quot;active&quot; : true&#10;  },&#10;  {&#10;    &quot;name&quot; : &quot;arroz&quot;,&#10;    &quot;price&quot; : 4.99,&#10;    &quot;id&quot; : &quot;e764e752-65a2-4628-932a-7bf06306e612&quot;,&#10;    &quot;createdAt&quot; : &quot;2024-03-19T11:48:42.475+00:00&quot;,&#10;    &quot;updatedAt&quot; : &quot;2024-03-19T11:48:42.475+00:00&quot;,&#10;    &quot;active&quot; : true&#10;  }&#10;]" />
-              <option name="code" value="200" />
-              <option name="contentType" value="application/json" />
-              <option name="headers">
-                <list>
-                  <headerState>
-                    <option name="key" value="Content-Type" />
-                    <option name="value" value="application/json" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Transfer-Encoding" />
-                    <option name="value" value="chunked" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Date" />
-                    <option name="value" value="Tue, 19 Mar 2024 12:03:29 GMT" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Keep-Alive" />
-                    <option name="value" value="timeout=60" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Connection" />
-                    <option name="value" value="keep-alive" />
-                  </headerState>
-                </list>
-              </option>
-              <option name="id" value="be88908e-712e-4ecb-8f18-fe56396f04c8" />
-              <option name="message" value="OK" />
-              <option name="prettyResponseType" value="JSON" />
-              <option name="rawBodyString" value="[{&quot;name&quot;:&quot;soja&quot;,&quot;price&quot;:4.99,&quot;id&quot;:&quot;b064114a-5e1d-4949-ad46-ef8180b94df8&quot;,&quot;createdAt&quot;:&quot;2024-03-19T11:52:26.949+00:00&quot;,&quot;updatedAt&quot;:&quot;2024-03-19T11:52:26.949+00:00&quot;,&quot;active&quot;:true},{&quot;name&quot;:&quot;arroz&quot;,&quot;price&quot;:4.99,&quot;id&quot;:&quot;e764e752-65a2-4628-932a-7bf06306e612&quot;,&quot;createdAt&quot;:&quot;2024-03-19T11:48:42.475+00:00&quot;,&quot;updatedAt&quot;:&quot;2024-03-19T11:48:42.475+00:00&quot;,&quot;active&quot;:true}]" />
-              <option name="size" value="352" />
-              <option name="time" value="331" />
-            </responseState>
-          </option>
-        </requestHistoryState>
-        <requestHistoryState>
           <option name="dateTime" value="1710849853913" />
           <option name="id" value="92687f88-d198-46b5-9d1f-0c6c1112591f" />
           <option name="request">
@@ -520,56 +420,6 @@
               <option name="rawBodyString" value="{&quot;name&quot;:&quot;sal&quot;,&quot;price&quot;:2.99,&quot;id&quot;:&quot;b064114a-5e1d-4949-ad46-ef8180b94df8&quot;,&quot;createdAt&quot;:&quot;2024-03-19T11:52:26.949+00:00&quot;,&quot;updatedAt&quot;:&quot;2024-03-19T11:52:26.949+00:00&quot;,&quot;active&quot;:true}" />
               <option name="size" value="173" />
               <option name="time" value="190" />
-            </responseState>
-          </option>
-        </requestHistoryState>
-        <requestHistoryState>
-          <option name="dateTime" value="1710849866473" />
-          <option name="id" value="6f3b7457-bb9d-4962-83e8-19dc6efcbfc7" />
-          <option name="request">
-            <requestState>
-              <option name="id" value="54f9f836-f6c7-4b85-8802-97d70d4ff339" />
-              <option name="method" value="GET" />
-              <option name="name" value="GetAll" />
-              <option name="url" value="http://localhost:8080/products" />
-            </requestState>
-          </option>
-          <option name="response">
-            <responseState>
-              <option name="bodyBytesBase64" value="W3sibmFtZSI6InNhbCIsInByaWNlIjoyLjk5LCJpZCI6ImIwNjQxMTRhLTVlMWQtNDk0OS1hZDQ2LWVmODE4MGI5NGRmOCIsImNyZWF0ZWRBdCI6IjIwMjQtMDMtMTlUMTE6NTI6MjYuOTQ5KzAwOjAwIiwidXBkYXRlZEF0IjoiMjAyNC0wMy0xOVQxMTo1MjoyNi45NDkrMDA6MDAiLCJhY3RpdmUiOnRydWV9LHsibmFtZSI6ImFycm96IiwicHJpY2UiOjQuOTksImlkIjoiZTc2NGU3NTItNjVhMi00NjI4LTkzMmEtN2JmMDYzMDZlNjEyIiwiY3JlYXRlZEF0IjoiMjAyNC0wMy0xOVQxMTo0ODo0Mi40NzUrMDA6MDAiLCJ1cGRhdGVkQXQiOiIyMDI0LTAzLTE5VDExOjQ4OjQyLjQ3NSswMDowMCIsImFjdGl2ZSI6dHJ1ZX1d" />
-              <option name="bodyString" value="[&#10;  {&#10;    &quot;name&quot; : &quot;sal&quot;,&#10;    &quot;price&quot; : 2.99,&#10;    &quot;id&quot; : &quot;b064114a-5e1d-4949-ad46-ef8180b94df8&quot;,&#10;    &quot;createdAt&quot; : &quot;2024-03-19T11:52:26.949+00:00&quot;,&#10;    &quot;updatedAt&quot; : &quot;2024-03-19T11:52:26.949+00:00&quot;,&#10;    &quot;active&quot; : true&#10;  },&#10;  {&#10;    &quot;name&quot; : &quot;arroz&quot;,&#10;    &quot;price&quot; : 4.99,&#10;    &quot;id&quot; : &quot;e764e752-65a2-4628-932a-7bf06306e612&quot;,&#10;    &quot;createdAt&quot; : &quot;2024-03-19T11:48:42.475+00:00&quot;,&#10;    &quot;updatedAt&quot; : &quot;2024-03-19T11:48:42.475+00:00&quot;,&#10;    &quot;active&quot; : true&#10;  }&#10;]" />
-              <option name="code" value="200" />
-              <option name="contentType" value="application/json" />
-              <option name="headers">
-                <list>
-                  <headerState>
-                    <option name="key" value="Content-Type" />
-                    <option name="value" value="application/json" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Transfer-Encoding" />
-                    <option name="value" value="chunked" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Date" />
-                    <option name="value" value="Tue, 19 Mar 2024 12:04:26 GMT" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Keep-Alive" />
-                    <option name="value" value="timeout=60" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Connection" />
-                    <option name="value" value="keep-alive" />
-                  </headerState>
-                </list>
-              </option>
-              <option name="id" value="6f3b7457-bb9d-4962-83e8-19dc6efcbfc7" />
-              <option name="message" value="OK" />
-              <option name="prettyResponseType" value="JSON" />
-              <option name="rawBodyString" value="[{&quot;name&quot;:&quot;sal&quot;,&quot;price&quot;:2.99,&quot;id&quot;:&quot;b064114a-5e1d-4949-ad46-ef8180b94df8&quot;,&quot;createdAt&quot;:&quot;2024-03-19T11:52:26.949+00:00&quot;,&quot;updatedAt&quot;:&quot;2024-03-19T11:52:26.949+00:00&quot;,&quot;active&quot;:true},{&quot;name&quot;:&quot;arroz&quot;,&quot;price&quot;:4.99,&quot;id&quot;:&quot;e764e752-65a2-4628-932a-7bf06306e612&quot;,&quot;createdAt&quot;:&quot;2024-03-19T11:48:42.475+00:00&quot;,&quot;updatedAt&quot;:&quot;2024-03-19T11:48:42.475+00:00&quot;,&quot;active&quot;:true}]" />
-              <option name="size" value="351" />
-              <option name="time" value="20" />
             </responseState>
           </option>
         </requestHistoryState>
@@ -2743,6 +2593,156 @@
               <option name="rawBodyString" value="[{&quot;id&quot;:&quot;122fb3c6-d41d-460a-aa65-058279c0d9bf&quot;,&quot;name&quot;:&quot;azeite&quot;,&quot;price&quot;:35.99,&quot;createdAt&quot;:&quot;2024-03-26T08:59:20.441248&quot;,&quot;updateAt&quot;:&quot;2024-03-26T08:59:20.441248&quot;},{&quot;id&quot;:&quot;16baea8e-3e21-4ee1-a958-a3231b790f66&quot;,&quot;name&quot;:&quot;vinagre&quot;,&quot;price&quot;:9.99,&quot;createdAt&quot;:&quot;2024-03-26T08:59:10.67524&quot;,&quot;updateAt&quot;:&quot;2024-03-26T08:59:10.67524&quot;},{&quot;id&quot;:&quot;21558a35-8226-48d3-bc13-fb8b00e55cd6&quot;,&quot;name&quot;:&quot;arroz&quot;,&quot;price&quot;:5.99,&quot;createdAt&quot;:&quot;2024-03-26T08:38:55.531531&quot;,&quot;updateAt&quot;:&quot;2024-03-26T08:38:55.531531&quot;},{&quot;id&quot;:&quot;305fdec3-cc0b-405a-8e8f-40b5ea7d878c&quot;,&quot;name&quot;:&quot;milho&quot;,&quot;price&quot;:5.99,&quot;createdAt&quot;:&quot;2024-03-26T08:57:53.279016&quot;,&quot;updateAt&quot;:&quot;2024-03-26T08:57:53.279016&quot;},{&quot;id&quot;:&quot;3a16cc7a-4136-4475-917b-d8d87dded59b&quot;,&quot;name&quot;:&quot;feijão&quot;,&quot;price&quot;:10.99,&quot;createdAt&quot;:&quot;2024-03-26T08:58:04.616101&quot;,&quot;updateAt&quot;:&quot;2024-03-26T08:58:04.616101&quot;},{&quot;id&quot;:&quot;52065a92-2a7f-49fb-9fe8-fbc7fb80e2b9&quot;,&quot;name&quot;:&quot;coca-cola&quot;,&quot;price&quot;:11.99,&quot;createdAt&quot;:&quot;2024-03-26T08:58:17.916135&quot;,&quot;updateAt&quot;:&quot;2024-03-26T08:58:17.916135&quot;},{&quot;id&quot;:&quot;6600017f-228b-4849-8d06-8154a2f37c6a&quot;,&quot;name&quot;:&quot;manteiga&quot;,&quot;price&quot;:4.99,&quot;createdAt&quot;:&quot;2024-03-19T09:27:29.253&quot;,&quot;updateAt&quot;:&quot;2024-03-19T09:27:29.253&quot;},{&quot;id&quot;:&quot;78384bfb-83ea-435a-891d-b3bf028c9241&quot;,&quot;name&quot;:&quot;nutella&quot;,&quot;price&quot;:15.99,&quot;createdAt&quot;:&quot;2024-03-26T08:53:19.58522&quot;,&quot;updateAt&quot;:&quot;2024-03-26T08:53:19.58522&quot;},{&quot;id&quot;:&quot;9a3da640-6262-4fd8-b9ab-277278f61cb5&quot;,&quot;name&quot;:&quot;carvão&quot;,&quot;price&quot;:29.99,&quot;createdAt&quot;:&quot;2024-03-26T08:58:56.154368&quot;,&quot;updateAt&quot;:&quot;2024-03-26T08:58:56.154368&quot;},{&quot;id&quot;:&quot;bb690490-4afa-41cc-b531-a9a1b17abbaf&quot;,&quot;name&quot;:&quot;mussarela&quot;,&quot;price&quot;:3.99,&quot;createdAt&quot;:&quot;2024-03-26T08:58:39.142356&quot;,&quot;updateAt&quot;:&quot;2024-03-26T08:58:39.142356&quot;}]" />
               <option name="size" value="1566" />
               <option name="time" value="17" />
+            </responseState>
+          </option>
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1711455859091" />
+          <option name="id" value="89752a22-5693-4b29-aa5e-694ae58d6eb3" />
+          <option name="request">
+            <requestState>
+              <option name="id" value="54f9f836-f6c7-4b85-8802-97d70d4ff339" />
+              <option name="method" value="GET" />
+              <option name="name" value="GetAll" />
+              <option name="url" value="http://localhost:8080/products" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="W3siaWQiOiIxMjJmYjNjNi1kNDFkLTQ2MGEtYWE2NS0wNTgyNzljMGQ5YmYiLCJuYW1lIjoiYXplaXRlIiwicHJpY2UiOjM1Ljk5LCJjcmVhdGVkQXQiOiIyMDI0LTAzLTI2VDA4OjU5OjIwLjQ0MTI0OCIsInVwZGF0ZUF0IjoiMjAyNC0wMy0yNlQwODo1OToyMC40NDEyNDgifSx7ImlkIjoiMTZiYWVhOGUtM2UyMS00ZWUxLWE5NTgtYTMyMzFiNzkwZjY2IiwibmFtZSI6InZpbmFncmUiLCJwcmljZSI6OS45OSwiY3JlYXRlZEF0IjoiMjAyNC0wMy0yNlQwODo1OToxMC42NzUyNCIsInVwZGF0ZUF0IjoiMjAyNC0wMy0yNlQwODo1OToxMC42NzUyNCJ9LHsiaWQiOiIyMTU1OGEzNS04MjI2LTQ4ZDMtYmMxMy1mYjhiMDBlNTVjZDYiLCJuYW1lIjoiYXJyb3oiLCJwcmljZSI6NS45OSwiY3JlYXRlZEF0IjoiMjAyNC0wMy0yNlQwODozODo1NS41MzE1MzEiLCJ1cGRhdGVBdCI6IjIwMjQtMDMtMjZUMDg6Mzg6NTUuNTMxNTMxIn1d" />
+              <option name="bodyString" value="[&#10;  {&#10;    &quot;id&quot; : &quot;122fb3c6-d41d-460a-aa65-058279c0d9bf&quot;,&#10;    &quot;name&quot; : &quot;azeite&quot;,&#10;    &quot;price&quot; : 35.99,&#10;    &quot;createdAt&quot; : &quot;2024-03-26T08:59:20.441248&quot;,&#10;    &quot;updateAt&quot; : &quot;2024-03-26T08:59:20.441248&quot;&#10;  },&#10;  {&#10;    &quot;id&quot; : &quot;16baea8e-3e21-4ee1-a958-a3231b790f66&quot;,&#10;    &quot;name&quot; : &quot;vinagre&quot;,&#10;    &quot;price&quot; : 9.99,&#10;    &quot;createdAt&quot; : &quot;2024-03-26T08:59:10.67524&quot;,&#10;    &quot;updateAt&quot; : &quot;2024-03-26T08:59:10.67524&quot;&#10;  },&#10;  {&#10;    &quot;id&quot; : &quot;21558a35-8226-48d3-bc13-fb8b00e55cd6&quot;,&#10;    &quot;name&quot; : &quot;arroz&quot;,&#10;    &quot;price&quot; : 5.99,&#10;    &quot;createdAt&quot; : &quot;2024-03-26T08:38:55.531531&quot;,&#10;    &quot;updateAt&quot; : &quot;2024-03-26T08:38:55.531531&quot;&#10;  }&#10;]" />
+              <option name="code" value="200" />
+              <option name="contentType" value="application/json" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Transfer-Encoding" />
+                    <option name="value" value="chunked" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Tue, 26 Mar 2024 12:24:19 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Keep-Alive" />
+                    <option name="value" value="timeout=60" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="keep-alive" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="89752a22-5693-4b29-aa5e-694ae58d6eb3" />
+              <option name="message" value="OK" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="[{&quot;id&quot;:&quot;122fb3c6-d41d-460a-aa65-058279c0d9bf&quot;,&quot;name&quot;:&quot;azeite&quot;,&quot;price&quot;:35.99,&quot;createdAt&quot;:&quot;2024-03-26T08:59:20.441248&quot;,&quot;updateAt&quot;:&quot;2024-03-26T08:59:20.441248&quot;},{&quot;id&quot;:&quot;16baea8e-3e21-4ee1-a958-a3231b790f66&quot;,&quot;name&quot;:&quot;vinagre&quot;,&quot;price&quot;:9.99,&quot;createdAt&quot;:&quot;2024-03-26T08:59:10.67524&quot;,&quot;updateAt&quot;:&quot;2024-03-26T08:59:10.67524&quot;},{&quot;id&quot;:&quot;21558a35-8226-48d3-bc13-fb8b00e55cd6&quot;,&quot;name&quot;:&quot;arroz&quot;,&quot;price&quot;:5.99,&quot;createdAt&quot;:&quot;2024-03-26T08:38:55.531531&quot;,&quot;updateAt&quot;:&quot;2024-03-26T08:38:55.531531&quot;}]" />
+              <option name="size" value="468" />
+              <option name="time" value="225" />
+            </responseState>
+          </option>
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1711455880516" />
+          <option name="id" value="f9c70e86-56d1-483a-9aff-6a75bd5c611f" />
+          <option name="request">
+            <requestState>
+              <option name="id" value="54f9f836-f6c7-4b85-8802-97d70d4ff339" />
+              <option name="method" value="GET" />
+              <option name="name" value="GetAll" />
+              <option name="url" value="http://localhost:8080/products?page=1&amp;size=3" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="W3siaWQiOiIzMDVmZGVjMy1jYzBiLTQwNWEtOGU4Zi00MGI1ZWE3ZDg3OGMiLCJuYW1lIjoibWlsaG8iLCJwcmljZSI6NS45OSwiY3JlYXRlZEF0IjoiMjAyNC0wMy0yNlQwODo1Nzo1My4yNzkwMTYiLCJ1cGRhdGVBdCI6IjIwMjQtMDMtMjZUMDg6NTc6NTMuMjc5MDE2In0seyJpZCI6IjNhMTZjYzdhLTQxMzYtNDQ3NS05MTdiLWQ4ZDg3ZGRlZDU5YiIsIm5hbWUiOiJmZWlqw6NvIiwicHJpY2UiOjEwLjk5LCJjcmVhdGVkQXQiOiIyMDI0LTAzLTI2VDA4OjU4OjA0LjYxNjEwMSIsInVwZGF0ZUF0IjoiMjAyNC0wMy0yNlQwODo1ODowNC42MTYxMDEifSx7ImlkIjoiNTIwNjVhOTItMmE3Zi00OWZiLTlmZTgtZmJjN2ZiODBlMmI5IiwibmFtZSI6ImNvY2EtY29sYSIsInByaWNlIjoxMS45OSwiY3JlYXRlZEF0IjoiMjAyNC0wMy0yNlQwODo1ODoxNy45MTYxMzUiLCJ1cGRhdGVBdCI6IjIwMjQtMDMtMjZUMDg6NTg6MTcuOTE2MTM1In1d" />
+              <option name="bodyString" value="[&#10;  {&#10;    &quot;id&quot; : &quot;305fdec3-cc0b-405a-8e8f-40b5ea7d878c&quot;,&#10;    &quot;name&quot; : &quot;milho&quot;,&#10;    &quot;price&quot; : 5.99,&#10;    &quot;createdAt&quot; : &quot;2024-03-26T08:57:53.279016&quot;,&#10;    &quot;updateAt&quot; : &quot;2024-03-26T08:57:53.279016&quot;&#10;  },&#10;  {&#10;    &quot;id&quot; : &quot;3a16cc7a-4136-4475-917b-d8d87dded59b&quot;,&#10;    &quot;name&quot; : &quot;feijão&quot;,&#10;    &quot;price&quot; : 10.99,&#10;    &quot;createdAt&quot; : &quot;2024-03-26T08:58:04.616101&quot;,&#10;    &quot;updateAt&quot; : &quot;2024-03-26T08:58:04.616101&quot;&#10;  },&#10;  {&#10;    &quot;id&quot; : &quot;52065a92-2a7f-49fb-9fe8-fbc7fb80e2b9&quot;,&#10;    &quot;name&quot; : &quot;coca-cola&quot;,&#10;    &quot;price&quot; : 11.99,&#10;    &quot;createdAt&quot; : &quot;2024-03-26T08:58:17.916135&quot;,&#10;    &quot;updateAt&quot; : &quot;2024-03-26T08:58:17.916135&quot;&#10;  }&#10;]" />
+              <option name="code" value="200" />
+              <option name="contentType" value="application/json" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Transfer-Encoding" />
+                    <option name="value" value="chunked" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Tue, 26 Mar 2024 12:24:40 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Keep-Alive" />
+                    <option name="value" value="timeout=60" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="keep-alive" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="f9c70e86-56d1-483a-9aff-6a75bd5c611f" />
+              <option name="message" value="OK" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="[{&quot;id&quot;:&quot;305fdec3-cc0b-405a-8e8f-40b5ea7d878c&quot;,&quot;name&quot;:&quot;milho&quot;,&quot;price&quot;:5.99,&quot;createdAt&quot;:&quot;2024-03-26T08:57:53.279016&quot;,&quot;updateAt&quot;:&quot;2024-03-26T08:57:53.279016&quot;},{&quot;id&quot;:&quot;3a16cc7a-4136-4475-917b-d8d87dded59b&quot;,&quot;name&quot;:&quot;feijão&quot;,&quot;price&quot;:10.99,&quot;createdAt&quot;:&quot;2024-03-26T08:58:04.616101&quot;,&quot;updateAt&quot;:&quot;2024-03-26T08:58:04.616101&quot;},{&quot;id&quot;:&quot;52065a92-2a7f-49fb-9fe8-fbc7fb80e2b9&quot;,&quot;name&quot;:&quot;coca-cola&quot;,&quot;price&quot;:11.99,&quot;createdAt&quot;:&quot;2024-03-26T08:58:17.916135&quot;,&quot;updateAt&quot;:&quot;2024-03-26T08:58:17.916135&quot;}]" />
+              <option name="size" value="474" />
+              <option name="time" value="43" />
+            </responseState>
+          </option>
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1711455893607" />
+          <option name="id" value="1d2cf319-efb1-49b7-90a7-edc012dc047c" />
+          <option name="request">
+            <requestState>
+              <option name="id" value="54f9f836-f6c7-4b85-8802-97d70d4ff339" />
+              <option name="method" value="GET" />
+              <option name="name" value="GetAll" />
+              <option name="url" value="http://localhost:8080/products?page=0&amp;size=3" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="W3siaWQiOiIxMjJmYjNjNi1kNDFkLTQ2MGEtYWE2NS0wNTgyNzljMGQ5YmYiLCJuYW1lIjoiYXplaXRlIiwicHJpY2UiOjM1Ljk5LCJjcmVhdGVkQXQiOiIyMDI0LTAzLTI2VDA4OjU5OjIwLjQ0MTI0OCIsInVwZGF0ZUF0IjoiMjAyNC0wMy0yNlQwODo1OToyMC40NDEyNDgifSx7ImlkIjoiMTZiYWVhOGUtM2UyMS00ZWUxLWE5NTgtYTMyMzFiNzkwZjY2IiwibmFtZSI6InZpbmFncmUiLCJwcmljZSI6OS45OSwiY3JlYXRlZEF0IjoiMjAyNC0wMy0yNlQwODo1OToxMC42NzUyNCIsInVwZGF0ZUF0IjoiMjAyNC0wMy0yNlQwODo1OToxMC42NzUyNCJ9LHsiaWQiOiIyMTU1OGEzNS04MjI2LTQ4ZDMtYmMxMy1mYjhiMDBlNTVjZDYiLCJuYW1lIjoiYXJyb3oiLCJwcmljZSI6NS45OSwiY3JlYXRlZEF0IjoiMjAyNC0wMy0yNlQwODozODo1NS41MzE1MzEiLCJ1cGRhdGVBdCI6IjIwMjQtMDMtMjZUMDg6Mzg6NTUuNTMxNTMxIn1d" />
+              <option name="bodyString" value="[&#10;  {&#10;    &quot;id&quot; : &quot;122fb3c6-d41d-460a-aa65-058279c0d9bf&quot;,&#10;    &quot;name&quot; : &quot;azeite&quot;,&#10;    &quot;price&quot; : 35.99,&#10;    &quot;createdAt&quot; : &quot;2024-03-26T08:59:20.441248&quot;,&#10;    &quot;updateAt&quot; : &quot;2024-03-26T08:59:20.441248&quot;&#10;  },&#10;  {&#10;    &quot;id&quot; : &quot;16baea8e-3e21-4ee1-a958-a3231b790f66&quot;,&#10;    &quot;name&quot; : &quot;vinagre&quot;,&#10;    &quot;price&quot; : 9.99,&#10;    &quot;createdAt&quot; : &quot;2024-03-26T08:59:10.67524&quot;,&#10;    &quot;updateAt&quot; : &quot;2024-03-26T08:59:10.67524&quot;&#10;  },&#10;  {&#10;    &quot;id&quot; : &quot;21558a35-8226-48d3-bc13-fb8b00e55cd6&quot;,&#10;    &quot;name&quot; : &quot;arroz&quot;,&#10;    &quot;price&quot; : 5.99,&#10;    &quot;createdAt&quot; : &quot;2024-03-26T08:38:55.531531&quot;,&#10;    &quot;updateAt&quot; : &quot;2024-03-26T08:38:55.531531&quot;&#10;  }&#10;]" />
+              <option name="code" value="200" />
+              <option name="contentType" value="application/json" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Transfer-Encoding" />
+                    <option name="value" value="chunked" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Tue, 26 Mar 2024 12:24:53 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Keep-Alive" />
+                    <option name="value" value="timeout=60" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="keep-alive" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="1d2cf319-efb1-49b7-90a7-edc012dc047c" />
+              <option name="message" value="OK" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="[{&quot;id&quot;:&quot;122fb3c6-d41d-460a-aa65-058279c0d9bf&quot;,&quot;name&quot;:&quot;azeite&quot;,&quot;price&quot;:35.99,&quot;createdAt&quot;:&quot;2024-03-26T08:59:20.441248&quot;,&quot;updateAt&quot;:&quot;2024-03-26T08:59:20.441248&quot;},{&quot;id&quot;:&quot;16baea8e-3e21-4ee1-a958-a3231b790f66&quot;,&quot;name&quot;:&quot;vinagre&quot;,&quot;price&quot;:9.99,&quot;createdAt&quot;:&quot;2024-03-26T08:59:10.67524&quot;,&quot;updateAt&quot;:&quot;2024-03-26T08:59:10.67524&quot;},{&quot;id&quot;:&quot;21558a35-8226-48d3-bc13-fb8b00e55cd6&quot;,&quot;name&quot;:&quot;arroz&quot;,&quot;price&quot;:5.99,&quot;createdAt&quot;:&quot;2024-03-26T08:38:55.531531&quot;,&quot;updateAt&quot;:&quot;2024-03-26T08:38:55.531531&quot;}]" />
+              <option name="size" value="468" />
+              <option name="time" value="33" />
             </responseState>
           </option>
         </requestHistoryState>

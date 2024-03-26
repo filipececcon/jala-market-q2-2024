@@ -7,6 +7,8 @@ import com.sd3.market.entities.Product;
 import com.sd3.market.services.ProductService;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Pageable;
+import org.springframework.data.web.PageableDefault;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -41,9 +43,9 @@ public class ProductController {
     }
 
     @GetMapping
-    public ResponseEntity<List<ProductDetailsResponseDto>> getAll(){
+    public ResponseEntity<List<ProductDetailsResponseDto>> getAll(@PageableDefault(page = 0, size = 3) Pageable pageable){
 
-        return ResponseEntity.status(HttpStatus.OK).body(service.getAll());
+        return ResponseEntity.status(HttpStatus.OK).body(service.getAll(pageable));
     }
 
     @PutMapping("/{id}")

@@ -9,9 +9,9 @@ import com.sd3.market.repositories.ProductRepository;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 
-import java.awt.print.Pageable;
 import java.util.List;
 import java.util.Optional;
 import java.util.UUID;
@@ -42,12 +42,11 @@ public class ProductService {
         if(result.isEmpty()) return null;
 
         return new ProductResponseDto(result.get().getName(), result.get().getPrice(), result.get().getCreatedAt(), result.get().getUpdatedAt());
-
     }
 
-    public List<ProductDetailsResponseDto> getAll(){
+    public List<ProductDetailsResponseDto> getAll(Pageable pageable){
 
-        List<Product> products = repository.findAll();
+        Page<Product> products = repository.findAll(pageable);
 
         List<ProductDetailsResponseDto> results = products
                 .stream()
