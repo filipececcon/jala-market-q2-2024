@@ -1,14 +1,17 @@
 package com.sd3.market.services;
 
+import com.sd3.market.dto.ProductDetailsResponseDto;
 import com.sd3.market.dto.ProductRequestDto;
-import com.sd3.market.dto.CreateProductResponseDto;
 import com.sd3.market.dto.ProductResponseDto;
 import com.sd3.market.entities.Product;
+import com.sd3.market.factories.ProductFactory;
 import com.sd3.market.repositories.ProductRepository;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
 import org.springframework.stereotype.Service;
 
+import java.awt.print.Pageable;
 import java.util.List;
 import java.util.Optional;
 import java.util.UUID;
@@ -21,7 +24,7 @@ public class ProductService {
     ProductRepository repository;
 
 
-    public CreateProductResponseDto create(ProductRequestDto request){
+    public ProductResponseDto create(ProductRequestDto request){
 
         Product product = new Product();
 
@@ -29,7 +32,7 @@ public class ProductService {
 
         Product result = repository.save(product);
 
-        return new CreateProductResponseDto(result.getName(), result.getPrice(), result.getCreatedAt());
+        return new ProductResponseDto(result.getName(), result.getPrice(), result.getCreatedAt(), result.getUpdatedAt());
     }
 
     public ProductResponseDto getById(UUID id){
@@ -38,23 +41,45 @@ public class ProductService {
 
         if(result.isEmpty()) return null;
 
-        return new ProductResponseDto(result.get().getName(), result.get().getPrice(), result.get().getUpdatedAt());
+        return new ProductResponseDto(result.get().getName(), result.get().getPrice(), result.get().getCreatedAt(), result.get().getUpdatedAt());
 
     }
 
-    public List<ProductResponseDto> getAll(){
+    public List<ProductDetailsResponseDto> getAll(){
 
         List<Product> products = repository.findAll();
 
-        List<ProductResponseDto> results = products
+        List<ProductDetailsResponseDto> results = products
                 .stream()
-                .map(product -> new ProductResponseDto(product.getName(), product.getPrice(), product.getUpdatedAt()))
+                .map(ProductFactory::CreateDetails)
                 .collect(Collectors.toList());
 
         return results;
-
     }
 
+    public ProductResponseDto update(ProductRequestDto dto, UUID id){
 
+        Optional<Product> result = repository.findById(id);
+
+        if(result.isEmpty()) return null;
+
+        result.get().setName(dto.name());
+        result.get().setPrice(dto.price());
+
+        Product saved = repository.save(result.get());
+
+        return new ProductResponseDto(saved.getName(), saved.getPrice(), saved.getCreatedAt(), saved.getUpdatedAt());
+    }
+
+    public boolean delete(UUID id){
+
+        Optional<Product> result = repository.findById(id);
+
+        if(result.isEmpty()) return false;
+
+        repository.delete(result.get());
+
+        return true;
+    }
 
 }
