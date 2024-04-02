@@ -30,7 +30,7 @@
                     <requestState>
                       <option name="body">
                         <bodyState>
-                          <option name="raw" value="{&#10;  &quot;name&quot;: &quot;azeite&quot;,&#10;  &quot;price&quot;: 35.99&#10;}" />
+                          <option name="raw" value="{&#10;  &quot;name&quot;: &quot;peixe&quot;,&#10;  &quot;price&quot;: 30.99&#10;}" />
                           <option name="type" value="JSON" />
                         </bodyState>
                       </option>
@@ -84,6 +84,12 @@
                       <option name="method" value="DELETE" />
                       <option name="name" value="Delete" />
                       <option name="url" value="http://localhost:8080/products/06bd0078-dc9c-41e9-80f5-173260860fa9" />
+                    </requestState>
+                    <requestState>
+                      <option name="id" value="b79fee18-3201-479d-9c39-059667735b79" />
+                      <option name="method" value="GET" />
+                      <option name="name" value="New Request" />
+                      <option name="url" value="http://localhost:8080/products/3f8e6d2d-93d7-43bf-a6e6-6ba7a07fb384" />
                     </requestState>
                   </list>
                 </option>

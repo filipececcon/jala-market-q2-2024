@@ -30,30 +30,28 @@ public class ProductService {
 
         BeanUtils.copyProperties(request, product);
 
-        Product result = repository.save(product);
-
-        return new ProductResponseDto(result.getName(), result.getPrice(), result.getCreatedAt(), result.getUpdatedAt());
+        return ProductFactory.Create(repository.save(product));
     }
 
     public ProductResponseDto getById(UUID id){
 
         Optional<Product> result = repository.findById(id);
 
-        if(result.isEmpty()) return null;
-
-        return new ProductResponseDto(result.get().getName(), result.get().getPrice(), result.get().getCreatedAt(), result.get().getUpdatedAt());
+        return result.isEmpty() ? null : ProductFactory.Create(result.get());
     }
 
-    public List<ProductDetailsResponseDto> getAll(Pageable pageable){
+    public Page<Product> getAll(Pageable pageable){
 
         Page<Product> products = repository.findAll(pageable);
 
-        List<ProductDetailsResponseDto> results = products
-                .stream()
-                .map(ProductFactory::CreateDetails)
-                .collect(Collectors.toList());
 
-        return results;
+
+//        List<ProductDetailsResponseDto> results = products
+//                .stream()
+//                .map(ProductFactory::CreateDetails)
+//                .collect(Collectors.toList());
+
+        return products;
     }
 
     public ProductResponseDto update(ProductRequestDto dto, UUID id){
@@ -67,7 +65,7 @@ public class ProductService {
 
         Product saved = repository.save(result.get());
 
-        return new ProductResponseDto(saved.getName(), saved.getPrice(), saved.getCreatedAt(), saved.getUpdatedAt());
+        return ProductFactory.Create(saved);
     }
 
     public boolean delete(UUID id){

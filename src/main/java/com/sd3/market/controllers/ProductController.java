@@ -7,11 +7,15 @@ import com.sd3.market.entities.Product;
 import com.sd3.market.services.ProductService;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.web.PageableDefault;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+
+import static org.springframework.hateoas.server.mvc.WebMvcLinkBuilder.linkTo;
+import static org.springframework.hateoas.server.mvc.WebMvcLinkBuilder.methodOn;
 
 import java.util.List;
 import java.util.UUID;
@@ -29,6 +33,8 @@ public class ProductController {
 
         ProductResponseDto response = service.create(dto);
 
+        response.add(linkTo(methodOn(ProductController.class).get(response.getId())).withSelfRel());
+
         return ResponseEntity.status(HttpStatus.CREATED).body(response);
     }
 
@@ -43,7 +49,7 @@ public class ProductController {
     }
 
     @GetMapping
-    public ResponseEntity<List<ProductDetailsResponseDto>> getAll(@PageableDefault(page = 0, size = 3) Pageable pageable){
+    public ResponseEntity<Page<Product>> getAll(@PageableDefault(page = 0, size = 3) Pageable pageable){
 
         return ResponseEntity.status(HttpStatus.OK).body(service.getAll(pageable));
     }
@@ -60,8 +66,7 @@ public class ProductController {
         if(service.delete(id)){
             return ResponseEntity.status(HttpStatus.OK).body(null);
         }
-        else{
-            return ResponseEntity.status(HttpStatus.NOT_FOUND).body(null);
-        }
+
+        return ResponseEntity.status(HttpStatus.NOT_FOUND).body(null);
     }
 }
