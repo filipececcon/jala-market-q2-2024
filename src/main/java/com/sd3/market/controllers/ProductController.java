@@ -7,6 +7,9 @@ import com.sd3.market.entities.Product;
 import com.sd3.market.services.ProductService;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cache.annotation.CacheEvict;
+import org.springframework.cache.annotation.CachePut;
+import org.springframework.cache.annotation.Cacheable;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.web.PageableDefault;
@@ -29,7 +32,10 @@ public class ProductController {
 
 
     @PostMapping
+    @Cacheable(value="product")
     public ResponseEntity<ProductResponseDto> create(@RequestBody @Valid ProductRequestDto dto){
+
+        System.out.println("ENTROU NO METODO");
 
         ProductResponseDto response = service.create(dto);
 
@@ -39,7 +45,10 @@ public class ProductController {
     }
 
     @GetMapping("/{id}")
+    @Cacheable(value="product")
     public ResponseEntity<ProductResponseDto> get(@PathVariable(value = "id") UUID id){
+
+        System.out.println("BUSCOU O PRODUTO: " + id);
 
         ProductResponseDto result = service.getById(id);
 
@@ -55,12 +64,14 @@ public class ProductController {
     }
 
     @PutMapping("/{id}")
+    @CachePut(value = "product")
     public ResponseEntity<ProductResponseDto> update(@PathVariable(value = "id") UUID id, @RequestBody @Valid ProductRequestDto dto){
 
         return ResponseEntity.status(HttpStatus.OK).body(service.update(dto, id));
     }
 
     @DeleteMapping("/{id}")
+    @CacheEvict(value="product", allEntries = true)
     public ResponseEntity<Product> delete(@PathVariable(value = "id") UUID id){
 
         if(service.delete(id)){

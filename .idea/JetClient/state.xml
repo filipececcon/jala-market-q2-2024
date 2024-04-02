@@ -30,7 +30,7 @@
                     <requestState>
                       <option name="body">
                         <bodyState>
-                          <option name="raw" value="{&#10;  &quot;name&quot;: &quot;peixe&quot;,&#10;  &quot;price&quot;: 30.99&#10;}" />
+                          <option name="raw" value="{&#10;  &quot;name&quot;: &quot;GELADEIRA&quot;,&#10;  &quot;price&quot;: 2500.00&#10;}" />
                           <option name="type" value="JSON" />
                         </bodyState>
                       </option>
@@ -51,18 +51,18 @@
                       <option name="id" value="3650ab41-b320-40d9-bb2a-f4cf49276393" />
                       <option name="method" value="GET" />
                       <option name="name" value="GetById" />
-                      <option name="url" value="http://localhost:8080/products/06bd0078-dc9c-41e9-80f5-173260860fa9" />
+                      <option name="url" value="http://localhost:8080/products/599cb1f5-49e3-4761-8ac0-29e71cc8fcee" />
                     </requestState>
                     <requestState>
                       <option name="id" value="54f9f836-f6c7-4b85-8802-97d70d4ff339" />
                       <option name="method" value="GET" />
                       <option name="name" value="GetAll" />
-                      <option name="url" value="http://localhost:8080/products?page=0&amp;size=3" />
+                      <option name="url" value="http://localhost:8080/products?page=0&amp;size=30" />
                     </requestState>
                     <requestState>
                       <option name="body">
                         <bodyState>
-                          <option name="raw" value="{&#10;  &quot;name&quot;: &quot;nutella&quot;,&#10;  &quot;price&quot;: 2.99&#10;}" />
+                          <option name="raw" value="{&#10;  &quot;name&quot;: &quot;GELADEIRA&quot;,&#10;  &quot;price&quot;: 2100.00&#10;}" />
                           <option name="type" value="JSON" />
                         </bodyState>
                       </option>
@@ -77,13 +77,13 @@
                       <option name="id" value="d316bbc9-387f-4756-9d2d-f5ca331840fd" />
                       <option name="method" value="PUT" />
                       <option name="name" value="Update" />
-                      <option name="url" value="http://localhost:8080/products/06bd0078-dc9c-41e9-80f5-173260860fa9" />
+                      <option name="url" value="http://localhost:8080/products/599cb1f5-49e3-4761-8ac0-29e71cc8fcee" />
                     </requestState>
                     <requestState>
                       <option name="id" value="0959cdb4-8363-4bd3-b36e-08063921b539" />
                       <option name="method" value="DELETE" />
                       <option name="name" value="Delete" />
-                      <option name="url" value="http://localhost:8080/products/06bd0078-dc9c-41e9-80f5-173260860fa9" />
+                      <option name="url" value="http://localhost:8080/products/6fd40380-57d9-4c5b-b74a-f7e27a2b7d3d" />
                     </requestState>
                     <requestState>
                       <option name="id" value="b79fee18-3201-479d-9c39-059667735b79" />
