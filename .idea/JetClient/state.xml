@@ -23,6 +23,16 @@
           <option name="folders">
             <list>
               <folderState>
+                <option name="auth">
+                  <authState>
+                    <option name="basic">
+                      <basicAuthState>
+                        <option name="pass" value="08d9a03f-114f-4752-bbf6-4c2a29a31746" />
+                        <option name="username" value="user" />
+                      </basicAuthState>
+                    </option>
+                  </authState>
+                </option>
                 <option name="id" value="004872c6-4d6e-47c8-b306-274d507a18a8" />
                 <option name="name" value="Products" />
                 <option name="requests">
@@ -30,7 +40,7 @@
                     <requestState>
                       <option name="body">
                         <bodyState>
-                          <option name="raw" value="{&#10;  &quot;name&quot;: &quot;GELADEIRA&quot;,&#10;  &quot;price&quot;: 2500.00&#10;}" />
+                          <option name="raw" value="{&#10;  &quot;name&quot;: &quot;FOGAO&quot;,&#10;  &quot;price&quot;: 1500.00&#10;}" />
                           <option name="type" value="JSON" />
                         </bodyState>
                       </option>

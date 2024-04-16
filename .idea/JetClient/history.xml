@@ -1420,262 +1420,6 @@
           </option>
         </requestHistoryState>
         <requestHistoryState>
-          <option name="dateTime" value="1712059210774" />
-          <option name="id" value="e732a169-2243-4484-8707-ddacf7087721" />
-          <option name="request">
-            <requestState>
-              <option name="body">
-                <bodyState>
-                  <option name="raw" value="{&#10;  &quot;name&quot;: &quot;CHUVEIRO&quot;,&#10;  &quot;price&quot;: 150.00&#10;}" />
-                  <option name="type" value="JSON" />
-                </bodyState>
-              </option>
-              <option name="headers">
-                <list>
-                  <headerState>
-                    <option name="key" value="Content-Type" />
-                    <option name="value" value="application/json" />
-                  </headerState>
-                </list>
-              </option>
-              <option name="id" value="65090908-32bc-4c8d-9ba1-6a01a14fe8a7" />
-              <option name="method" value="POST" />
-              <option name="name" value="Create" />
-              <option name="url" value="http://localhost:8080/products" />
-            </requestState>
-          </option>
-          <option name="response">
-            <responseState>
-              <option name="bodyBytesBase64" value="eyJpZCI6IjFmZTk2NjJkLTBiOWItNDJmYi1hYTViLWYxOTNkZjM5YmZhMyIsIm5hbWUiOiJDSFVWRUlSTyIsInByaWNlIjoxNTAuMCwiY3JlYXRlZEF0IjoiMjAyNC0wNC0wMlQwODo1OTowMy43Njc0MDgiLCJ1cGRhdGVBdCI6bnVsbCwiX2xpbmtzIjp7InNlbGYiOnsiaHJlZiI6Imh0dHA6Ly9sb2NhbGhvc3Q6ODA4MC9wcm9kdWN0cy8xZmU5NjYyZC0wYjliLTQyZmItYWE1Yi1mMTkzZGYzOWJmYTMifX19" />
-              <option name="bodyString" value="{&#10;  &quot;id&quot; : &quot;1fe9662d-0b9b-42fb-aa5b-f193df39bfa3&quot;,&#10;  &quot;name&quot; : &quot;CHUVEIRO&quot;,&#10;  &quot;price&quot; : 150.0,&#10;  &quot;createdAt&quot; : &quot;2024-04-02T08:59:03.767408&quot;,&#10;  &quot;updateAt&quot; : null,&#10;  &quot;_links&quot; : {&#10;    &quot;self&quot; : {&#10;      &quot;href&quot; : &quot;http://localhost:8080/products/1fe9662d-0b9b-42fb-aa5b-f193df39bfa3&quot;&#10;    }&#10;  }&#10;}" />
-              <option name="code" value="201" />
-              <option name="contentType" value="application/hal+json" />
-              <option name="headers">
-                <list>
-                  <headerState>
-                    <option name="key" value="Content-Type" />
-                    <option name="value" value="application/hal+json" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Transfer-Encoding" />
-                    <option name="value" value="chunked" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Date" />
-                    <option name="value" value="Tue, 02 Apr 2024 12:00:09 GMT" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Keep-Alive" />
-                    <option name="value" value="timeout=60" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Connection" />
-                    <option name="value" value="keep-alive" />
-                  </headerState>
-                </list>
-              </option>
-              <option name="id" value="e732a169-2243-4484-8707-ddacf7087721" />
-              <option name="message" value="Created" />
-              <option name="prettyResponseType" value="JSON" />
-              <option name="rawBodyString" value="{&quot;id&quot;:&quot;1fe9662d-0b9b-42fb-aa5b-f193df39bfa3&quot;,&quot;name&quot;:&quot;CHUVEIRO&quot;,&quot;price&quot;:150.0,&quot;createdAt&quot;:&quot;2024-04-02T08:59:03.767408&quot;,&quot;updateAt&quot;:null,&quot;_links&quot;:{&quot;self&quot;:{&quot;href&quot;:&quot;http://localhost:8080/products/1fe9662d-0b9b-42fb-aa5b-f193df39bfa3&quot;}}}" />
-              <option name="size" value="231" />
-              <option name="time" value="2" />
-            </responseState>
-          </option>
-        </requestHistoryState>
-        <requestHistoryState>
-          <option name="dateTime" value="1712059241350" />
-          <option name="id" value="054bdf55-b2a3-4bf5-8c7e-a71af64b4a00" />
-          <option name="request">
-            <requestState>
-              <option name="body">
-                <bodyState>
-                  <option name="raw" value="{&#10;  &quot;name&quot;: &quot;CHUVEIRO&quot;,&#10;  &quot;price&quot;: 150.00&#10;}" />
-                  <option name="type" value="JSON" />
-                </bodyState>
-              </option>
-              <option name="headers">
-                <list>
-                  <headerState>
-                    <option name="key" value="Content-Type" />
-                    <option name="value" value="application/json" />
-                  </headerState>
-                </list>
-              </option>
-              <option name="id" value="65090908-32bc-4c8d-9ba1-6a01a14fe8a7" />
-              <option name="method" value="POST" />
-              <option name="name" value="Create" />
-              <option name="url" value="http://localhost:8080/products" />
-            </requestState>
-          </option>
-          <option name="response">
-            <responseState>
-              <option name="bodyBytesBase64" value="eyJpZCI6IjcwNzI2ZTAyLTExZDAtNGVlMi1iMTk2LTEzMjk0MzMwNTM1YSIsIm5hbWUiOiJDSFVWRUlSTyIsInByaWNlIjoxNTAuMCwiY3JlYXRlZEF0IjoiMjAyNC0wNC0wMlQwOTowMDo0MS4yMjY1NDMiLCJ1cGRhdGVBdCI6bnVsbCwiX2xpbmtzIjp7InNlbGYiOnsiaHJlZiI6Imh0dHA6Ly9sb2NhbGhvc3Q6ODA4MC9wcm9kdWN0cy83MDcyNmUwMi0xMWQwLTRlZTItYjE5Ni0xMzI5NDMzMDUzNWEifX19" />
-              <option name="bodyString" value="{&#10;  &quot;id&quot; : &quot;70726e02-11d0-4ee2-b196-13294330535a&quot;,&#10;  &quot;name&quot; : &quot;CHUVEIRO&quot;,&#10;  &quot;price&quot; : 150.0,&#10;  &quot;createdAt&quot; : &quot;2024-04-02T09:00:41.226543&quot;,&#10;  &quot;updateAt&quot; : null,&#10;  &quot;_links&quot; : {&#10;    &quot;self&quot; : {&#10;      &quot;href&quot; : &quot;http://localhost:8080/products/70726e02-11d0-4ee2-b196-13294330535a&quot;&#10;    }&#10;  }&#10;}" />
-              <option name="code" value="201" />
-              <option name="contentType" value="application/hal+json" />
-              <option name="headers">
-                <list>
-                  <headerState>
-                    <option name="key" value="Content-Type" />
-                    <option name="value" value="application/hal+json" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Transfer-Encoding" />
-                    <option name="value" value="chunked" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Date" />
-                    <option name="value" value="Tue, 02 Apr 2024 12:00:41 GMT" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Keep-Alive" />
-                    <option name="value" value="timeout=60" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Connection" />
-                    <option name="value" value="keep-alive" />
-                  </headerState>
-                </list>
-              </option>
-              <option name="id" value="054bdf55-b2a3-4bf5-8c7e-a71af64b4a00" />
-              <option name="message" value="Created" />
-              <option name="prettyResponseType" value="JSON" />
-              <option name="rawBodyString" value="{&quot;id&quot;:&quot;70726e02-11d0-4ee2-b196-13294330535a&quot;,&quot;name&quot;:&quot;CHUVEIRO&quot;,&quot;price&quot;:150.0,&quot;createdAt&quot;:&quot;2024-04-02T09:00:41.226543&quot;,&quot;updateAt&quot;:null,&quot;_links&quot;:{&quot;self&quot;:{&quot;href&quot;:&quot;http://localhost:8080/products/70726e02-11d0-4ee2-b196-13294330535a&quot;}}}" />
-              <option name="size" value="231" />
-              <option name="time" value="244" />
-            </responseState>
-          </option>
-        </requestHistoryState>
-        <requestHistoryState>
-          <option name="dateTime" value="1712059266193" />
-          <option name="id" value="4878160c-1449-4c8d-b061-3938d15a240c" />
-          <option name="request">
-            <requestState>
-              <option name="body">
-                <bodyState>
-                  <option name="raw" value="{&#10;  &quot;name&quot;: &quot;CHUVEIRO&quot;,&#10;  &quot;price&quot;: 150.00&#10;}" />
-                  <option name="type" value="JSON" />
-                </bodyState>
-              </option>
-              <option name="headers">
-                <list>
-                  <headerState>
-                    <option name="key" value="Content-Type" />
-                    <option name="value" value="application/json" />
-                  </headerState>
-                </list>
-              </option>
-              <option name="id" value="65090908-32bc-4c8d-9ba1-6a01a14fe8a7" />
-              <option name="method" value="POST" />
-              <option name="name" value="Create" />
-              <option name="url" value="http://localhost:8080/products" />
-            </requestState>
-          </option>
-          <option name="response">
-            <responseState>
-              <option name="bodyBytesBase64" value="eyJpZCI6IjcwNzI2ZTAyLTExZDAtNGVlMi1iMTk2LTEzMjk0MzMwNTM1YSIsIm5hbWUiOiJDSFVWRUlSTyIsInByaWNlIjoxNTAuMCwiY3JlYXRlZEF0IjoiMjAyNC0wNC0wMlQwOTowMDo0MS4yMjY1NDMiLCJ1cGRhdGVBdCI6bnVsbCwiX2xpbmtzIjp7InNlbGYiOnsiaHJlZiI6Imh0dHA6Ly9sb2NhbGhvc3Q6ODA4MC9wcm9kdWN0cy83MDcyNmUwMi0xMWQwLTRlZTItYjE5Ni0xMzI5NDMzMDUzNWEifX19" />
-              <option name="bodyString" value="{&#10;  &quot;id&quot; : &quot;70726e02-11d0-4ee2-b196-13294330535a&quot;,&#10;  &quot;name&quot; : &quot;CHUVEIRO&quot;,&#10;  &quot;price&quot; : 150.0,&#10;  &quot;createdAt&quot; : &quot;2024-04-02T09:00:41.226543&quot;,&#10;  &quot;updateAt&quot; : null,&#10;  &quot;_links&quot; : {&#10;    &quot;self&quot; : {&#10;      &quot;href&quot; : &quot;http://localhost:8080/products/70726e02-11d0-4ee2-b196-13294330535a&quot;&#10;    }&#10;  }&#10;}" />
-              <option name="code" value="201" />
-              <option name="contentType" value="application/hal+json" />
-              <option name="headers">
-                <list>
-                  <headerState>
-                    <option name="key" value="Content-Type" />
-                    <option name="value" value="application/hal+json" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Transfer-Encoding" />
-                    <option name="value" value="chunked" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Date" />
-                    <option name="value" value="Tue, 02 Apr 2024 12:01:06 GMT" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Keep-Alive" />
-                    <option name="value" value="timeout=60" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Connection" />
-                    <option name="value" value="keep-alive" />
-                  </headerState>
-                </list>
-              </option>
-              <option name="id" value="4878160c-1449-4c8d-b061-3938d15a240c" />
-              <option name="message" value="Created" />
-              <option name="prettyResponseType" value="JSON" />
-              <option name="rawBodyString" value="{&quot;id&quot;:&quot;70726e02-11d0-4ee2-b196-13294330535a&quot;,&quot;name&quot;:&quot;CHUVEIRO&quot;,&quot;price&quot;:150.0,&quot;createdAt&quot;:&quot;2024-04-02T09:00:41.226543&quot;,&quot;updateAt&quot;:null,&quot;_links&quot;:{&quot;self&quot;:{&quot;href&quot;:&quot;http://localhost:8080/products/70726e02-11d0-4ee2-b196-13294330535a&quot;}}}" />
-              <option name="size" value="231" />
-              <option name="time" value="4" />
-            </responseState>
-          </option>
-        </requestHistoryState>
-        <requestHistoryState>
-          <option name="dateTime" value="1712059266404" />
-          <option name="id" value="ff23afd0-074c-4f32-a26b-002f6439f56e" />
-          <option name="request">
-            <requestState>
-              <option name="body">
-                <bodyState>
-                  <option name="raw" value="{&#10;  &quot;name&quot;: &quot;CHUVEIRO&quot;,&#10;  &quot;price&quot;: 150.00&#10;}" />
-                  <option name="type" value="JSON" />
-                </bodyState>
-              </option>
-              <option name="headers">
-                <list>
-                  <headerState>
-                    <option name="key" value="Content-Type" />
-                    <option name="value" value="application/json" />
-                  </headerState>
-                </list>
-              </option>
-              <option name="id" value="65090908-32bc-4c8d-9ba1-6a01a14fe8a7" />
-              <option name="method" value="POST" />
-              <option name="name" value="Create" />
-              <option name="url" value="http://localhost:8080/products" />
-            </requestState>
-          </option>
-          <option name="response">
-            <responseState>
-              <option name="bodyBytesBase64" value="eyJpZCI6IjcwNzI2ZTAyLTExZDAtNGVlMi1iMTk2LTEzMjk0MzMwNTM1YSIsIm5hbWUiOiJDSFVWRUlSTyIsInByaWNlIjoxNTAuMCwiY3JlYXRlZEF0IjoiMjAyNC0wNC0wMlQwOTowMDo0MS4yMjY1NDMiLCJ1cGRhdGVBdCI6bnVsbCwiX2xpbmtzIjp7InNlbGYiOnsiaHJlZiI6Imh0dHA6Ly9sb2NhbGhvc3Q6ODA4MC9wcm9kdWN0cy83MDcyNmUwMi0xMWQwLTRlZTItYjE5Ni0xMzI5NDMzMDUzNWEifX19" />
-              <option name="bodyString" value="{&#10;  &quot;id&quot; : &quot;70726e02-11d0-4ee2-b196-13294330535a&quot;,&#10;  &quot;name&quot; : &quot;CHUVEIRO&quot;,&#10;  &quot;price&quot; : 150.0,&#10;  &quot;createdAt&quot; : &quot;2024-04-02T09:00:41.226543&quot;,&#10;  &quot;updateAt&quot; : null,&#10;  &quot;_links&quot; : {&#10;    &quot;self&quot; : {&#10;      &quot;href&quot; : &quot;http://localhost:8080/products/70726e02-11d0-4ee2-b196-13294330535a&quot;&#10;    }&#10;  }&#10;}" />
-              <option name="code" value="201" />
-              <option name="contentType" value="application/hal+json" />
-              <option name="headers">
-                <list>
-                  <headerState>
-                    <option name="key" value="Content-Type" />
-                    <option name="value" value="application/hal+json" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Transfer-Encoding" />
-                    <option name="value" value="chunked" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Date" />
-                    <option name="value" value="Tue, 02 Apr 2024 12:01:06 GMT" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Keep-Alive" />
-                    <option name="value" value="timeout=60" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Connection" />
-                    <option name="value" value="keep-alive" />
-                  </headerState>
-                </list>
-              </option>
-              <option name="id" value="ff23afd0-074c-4f32-a26b-002f6439f56e" />
-              <option name="message" value="Created" />
-              <option name="prettyResponseType" value="JSON" />
-              <option name="rawBodyString" value="{&quot;id&quot;:&quot;70726e02-11d0-4ee2-b196-13294330535a&quot;,&quot;name&quot;:&quot;CHUVEIRO&quot;,&quot;price&quot;:150.0,&quot;createdAt&quot;:&quot;2024-04-02T09:00:41.226543&quot;,&quot;updateAt&quot;:null,&quot;_links&quot;:{&quot;self&quot;:{&quot;href&quot;:&quot;http://localhost:8080/products/70726e02-11d0-4ee2-b196-13294330535a&quot;}}}" />
-              <option name="size" value="231" />
-              <option name="time" value="5" />
-            </responseState>
-          </option>
-        </requestHistoryState>
-        <requestHistoryState>
           <option name="dateTime" value="1712059266582" />
           <option name="id" value="3d8aca24-80fe-40dc-84bf-c61a43e4ef94" />
           <option name="request">
@@ -2673,106 +2417,6 @@
               <option name="rawBodyString" value="{&quot;id&quot;:&quot;6fd40380-57d9-4c5b-b74a-f7e27a2b7d3d&quot;,&quot;name&quot;:&quot;CHUVEIRO&quot;,&quot;price&quot;:150.0,&quot;createdAt&quot;:&quot;2024-04-02T09:01:24.333194&quot;,&quot;updateAt&quot;:null,&quot;_links&quot;:{&quot;self&quot;:{&quot;href&quot;:&quot;http://localhost:8080/products/6fd40380-57d9-4c5b-b74a-f7e27a2b7d3d&quot;}}}" />
               <option name="size" value="231" />
               <option name="time" value="2" />
-            </responseState>
-          </option>
-        </requestHistoryState>
-        <requestHistoryState>
-          <option name="dateTime" value="1712059467240" />
-          <option name="id" value="2f5247bd-35d9-4a35-82a2-3c39eea7665e" />
-          <option name="request">
-            <requestState>
-              <option name="id" value="3650ab41-b320-40d9-bb2a-f4cf49276393" />
-              <option name="method" value="GET" />
-              <option name="name" value="GetById" />
-              <option name="url" value="http://localhost:8080/products/6fd40380-57d9-4c5b-b74a-f7e27a2b7d3d" />
-            </requestState>
-          </option>
-          <option name="response">
-            <responseState>
-              <option name="bodyBytesBase64" value="eyJpZCI6IjZmZDQwMzgwLTU3ZDktNGM1Yi1iNzRhLWY3ZTI3YTJiN2QzZCIsIm5hbWUiOiJDSFVWRUlSTyIsInByaWNlIjoxNTAuMCwiY3JlYXRlZEF0IjoiMjAyNC0wNC0wMlQwOTowMToyNC4zMzMxOTQiLCJ1cGRhdGVBdCI6bnVsbH0=" />
-              <option name="bodyString" value="{&#10;  &quot;id&quot; : &quot;6fd40380-57d9-4c5b-b74a-f7e27a2b7d3d&quot;,&#10;  &quot;name&quot; : &quot;CHUVEIRO&quot;,&#10;  &quot;price&quot; : 150.0,&#10;  &quot;createdAt&quot; : &quot;2024-04-02T09:01:24.333194&quot;,&#10;  &quot;updateAt&quot; : null&#10;}" />
-              <option name="code" value="200" />
-              <option name="contentType" value="application/hal+json" />
-              <option name="headers">
-                <list>
-                  <headerState>
-                    <option name="key" value="Content-Type" />
-                    <option name="value" value="application/hal+json" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Transfer-Encoding" />
-                    <option name="value" value="chunked" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Date" />
-                    <option name="value" value="Tue, 02 Apr 2024 12:04:27 GMT" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Keep-Alive" />
-                    <option name="value" value="timeout=60" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Connection" />
-                    <option name="value" value="keep-alive" />
-                  </headerState>
-                </list>
-              </option>
-              <option name="id" value="2f5247bd-35d9-4a35-82a2-3c39eea7665e" />
-              <option name="message" value="OK" />
-              <option name="prettyResponseType" value="JSON" />
-              <option name="rawBodyString" value="{&quot;id&quot;:&quot;6fd40380-57d9-4c5b-b74a-f7e27a2b7d3d&quot;,&quot;name&quot;:&quot;CHUVEIRO&quot;,&quot;price&quot;:150.0,&quot;createdAt&quot;:&quot;2024-04-02T09:01:24.333194&quot;,&quot;updateAt&quot;:null}" />
-              <option name="size" value="134" />
-              <option name="time" value="11" />
-            </responseState>
-          </option>
-        </requestHistoryState>
-        <requestHistoryState>
-          <option name="dateTime" value="1712059468179" />
-          <option name="id" value="fb622f66-4a6f-4836-b957-18b0f0286178" />
-          <option name="request">
-            <requestState>
-              <option name="id" value="3650ab41-b320-40d9-bb2a-f4cf49276393" />
-              <option name="method" value="GET" />
-              <option name="name" value="GetById" />
-              <option name="url" value="http://localhost:8080/products/6fd40380-57d9-4c5b-b74a-f7e27a2b7d3d" />
-            </requestState>
-          </option>
-          <option name="response">
-            <responseState>
-              <option name="bodyBytesBase64" value="eyJpZCI6IjZmZDQwMzgwLTU3ZDktNGM1Yi1iNzRhLWY3ZTI3YTJiN2QzZCIsIm5hbWUiOiJDSFVWRUlSTyIsInByaWNlIjoxNTAuMCwiY3JlYXRlZEF0IjoiMjAyNC0wNC0wMlQwOTowMToyNC4zMzMxOTQiLCJ1cGRhdGVBdCI6bnVsbH0=" />
-              <option name="bodyString" value="{&#10;  &quot;id&quot; : &quot;6fd40380-57d9-4c5b-b74a-f7e27a2b7d3d&quot;,&#10;  &quot;name&quot; : &quot;CHUVEIRO&quot;,&#10;  &quot;price&quot; : 150.0,&#10;  &quot;createdAt&quot; : &quot;2024-04-02T09:01:24.333194&quot;,&#10;  &quot;updateAt&quot; : null&#10;}" />
-              <option name="code" value="200" />
-              <option name="contentType" value="application/hal+json" />
-              <option name="headers">
-                <list>
-                  <headerState>
-                    <option name="key" value="Content-Type" />
-                    <option name="value" value="application/hal+json" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Transfer-Encoding" />
-                    <option name="value" value="chunked" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Date" />
-                    <option name="value" value="Tue, 02 Apr 2024 12:04:27 GMT" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Keep-Alive" />
-                    <option name="value" value="timeout=60" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Connection" />
-                    <option name="value" value="keep-alive" />
-                  </headerState>
-                </list>
-              </option>
-              <option name="id" value="fb622f66-4a6f-4836-b957-18b0f0286178" />
-              <option name="message" value="OK" />
-              <option name="prettyResponseType" value="JSON" />
-              <option name="rawBodyString" value="{&quot;id&quot;:&quot;6fd40380-57d9-4c5b-b74a-f7e27a2b7d3d&quot;,&quot;name&quot;:&quot;CHUVEIRO&quot;,&quot;price&quot;:150.0,&quot;createdAt&quot;:&quot;2024-04-02T09:01:24.333194&quot;,&quot;updateAt&quot;:null}" />
-              <option name="size" value="134" />
-              <option name="time" value="13" />
             </responseState>
           </option>
         </requestHistoryState>
@@ -3997,6 +3641,576 @@
               <option name="rawBodyString" value="{&quot;id&quot;:&quot;599cb1f5-49e3-4761-8ac0-29e71cc8fcee&quot;,&quot;name&quot;:&quot;GELADEIRA&quot;,&quot;price&quot;:2300.0,&quot;createdAt&quot;:&quot;2024-04-02T09:09:09.130118&quot;,&quot;updateAt&quot;:null}" />
               <option name="size" value="136" />
               <option name="time" value="3" />
+            </responseState>
+          </option>
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1712838230266" />
+          <option name="id" value="7c4528b6-23f6-453a-93bf-d3f8c42d0188" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="{&#10;  &quot;name&quot;: &quot;FOGAO&quot;,&#10;  &quot;price&quot;: 1500.00&#10;}" />
+                  <option name="type" value="JSON" />
+                </bodyState>
+              </option>
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="65090908-32bc-4c8d-9ba1-6a01a14fe8a7" />
+              <option name="method" value="POST" />
+              <option name="name" value="Create" />
+              <option name="url" value="http://localhost:8080/products" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="code" value="401" />
+              <option name="contentType" value="application/octet-stream" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Vary" />
+                    <option name="value" value="Origin" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Vary" />
+                    <option name="value" value="Access-Control-Request-Method" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Vary" />
+                    <option name="value" value="Access-Control-Request-Headers" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Set-Cookie" />
+                    <option name="value" value="JSESSIONID=FFE596D7055E0EC7EB068792953BBD6D; Path=/; HttpOnly" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="X-Content-Type-Options" />
+                    <option name="value" value="nosniff" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="X-XSS-Protection" />
+                    <option name="value" value="0" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Cache-Control" />
+                    <option name="value" value="no-cache, no-store, max-age=0, must-revalidate" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Pragma" />
+                    <option name="value" value="no-cache" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Expires" />
+                    <option name="value" value="0" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="X-Frame-Options" />
+                    <option name="value" value="DENY" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="WWW-Authenticate" />
+                    <option name="value" value="Basic realm=&quot;Realm&quot;" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="0" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Thu, 11 Apr 2024 12:23:50 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Keep-Alive" />
+                    <option name="value" value="timeout=60" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="keep-alive" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="7c4528b6-23f6-453a-93bf-d3f8c42d0188" />
+              <option name="message" value="Unauthorized" />
+              <option name="time" value="184" />
+            </responseState>
+          </option>
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1712838276136" />
+          <option name="id" value="7fdecf0a-a8e5-4a20-a4af-63b82eb97bae" />
+          <option name="request">
+            <requestState>
+              <option name="auth">
+                <authState>
+                  <option name="basic">
+                    <basicAuthState>
+                      <option name="pass" value="a67a5641-0ec4-4787-ac7c-b2e45346b879" />
+                      <option name="username" value="user" />
+                    </basicAuthState>
+                  </option>
+                  <option name="type" value="BASIC" />
+                </authState>
+              </option>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="{&#10;  &quot;name&quot;: &quot;FOGAO&quot;,&#10;  &quot;price&quot;: 1500.00&#10;}" />
+                  <option name="type" value="JSON" />
+                </bodyState>
+              </option>
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="65090908-32bc-4c8d-9ba1-6a01a14fe8a7" />
+              <option name="method" value="POST" />
+              <option name="name" value="Create" />
+              <option name="url" value="http://localhost:8080/products" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="code" value="401" />
+              <option name="contentType" value="application/octet-stream" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Vary" />
+                    <option name="value" value="Origin" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Vary" />
+                    <option name="value" value="Access-Control-Request-Method" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Vary" />
+                    <option name="value" value="Access-Control-Request-Headers" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="X-Content-Type-Options" />
+                    <option name="value" value="nosniff" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="X-XSS-Protection" />
+                    <option name="value" value="0" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Cache-Control" />
+                    <option name="value" value="no-cache, no-store, max-age=0, must-revalidate" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Pragma" />
+                    <option name="value" value="no-cache" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Expires" />
+                    <option name="value" value="0" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="X-Frame-Options" />
+                    <option name="value" value="DENY" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="WWW-Authenticate" />
+                    <option name="value" value="Basic realm=&quot;Realm&quot;" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="0" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Thu, 11 Apr 2024 12:24:36 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Keep-Alive" />
+                    <option name="value" value="timeout=60" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="keep-alive" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="7fdecf0a-a8e5-4a20-a4af-63b82eb97bae" />
+              <option name="message" value="Unauthorized" />
+              <option name="time" value="25" />
+            </responseState>
+          </option>
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1712838487007" />
+          <option name="id" value="f1b1bdff-0cf2-425b-b82a-9e00499e5a5d" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="{&#10;  &quot;name&quot;: &quot;FOGAO&quot;,&#10;  &quot;price&quot;: 1500.00&#10;}" />
+                  <option name="type" value="JSON" />
+                </bodyState>
+              </option>
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Authorization" />
+                    <option name="value" value="Basic dXNlcjphNjdhNTY0MS0wZWM0LTQ3ODctYWM3Yy1iMmU0NTM0NmI4Nzk=" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="65090908-32bc-4c8d-9ba1-6a01a14fe8a7" />
+              <option name="method" value="POST" />
+              <option name="name" value="Create" />
+              <option name="url" value="http://localhost:8080/products" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="code" value="401" />
+              <option name="contentType" value="application/octet-stream" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Vary" />
+                    <option name="value" value="Origin" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Vary" />
+                    <option name="value" value="Access-Control-Request-Method" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Vary" />
+                    <option name="value" value="Access-Control-Request-Headers" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="X-Content-Type-Options" />
+                    <option name="value" value="nosniff" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="X-XSS-Protection" />
+                    <option name="value" value="0" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Cache-Control" />
+                    <option name="value" value="no-cache, no-store, max-age=0, must-revalidate" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Pragma" />
+                    <option name="value" value="no-cache" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Expires" />
+                    <option name="value" value="0" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="X-Frame-Options" />
+                    <option name="value" value="DENY" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="WWW-Authenticate" />
+                    <option name="value" value="Basic realm=&quot;Realm&quot;" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="0" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Thu, 11 Apr 2024 12:28:06 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Keep-Alive" />
+                    <option name="value" value="timeout=60" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="keep-alive" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="f1b1bdff-0cf2-425b-b82a-9e00499e5a5d" />
+              <option name="message" value="Unauthorized" />
+              <option name="time" value="59" />
+            </responseState>
+          </option>
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1712838547400" />
+          <option name="id" value="1eb2b9d6-1776-4e4f-be8e-9d79a653e4bf" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="{&#10;  &quot;name&quot;: &quot;FOGAO&quot;,&#10;  &quot;price&quot;: 1500.00&#10;}" />
+                  <option name="type" value="JSON" />
+                </bodyState>
+              </option>
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="65090908-32bc-4c8d-9ba1-6a01a14fe8a7" />
+              <option name="method" value="POST" />
+              <option name="name" value="Create" />
+              <option name="url" value="http://localhost:8080/products" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="code" value="401" />
+              <option name="contentType" value="application/octet-stream" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Vary" />
+                    <option name="value" value="Origin" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Vary" />
+                    <option name="value" value="Access-Control-Request-Method" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Vary" />
+                    <option name="value" value="Access-Control-Request-Headers" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="X-Content-Type-Options" />
+                    <option name="value" value="nosniff" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="X-XSS-Protection" />
+                    <option name="value" value="0" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Cache-Control" />
+                    <option name="value" value="no-cache, no-store, max-age=0, must-revalidate" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Pragma" />
+                    <option name="value" value="no-cache" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Expires" />
+                    <option name="value" value="0" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="X-Frame-Options" />
+                    <option name="value" value="DENY" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="WWW-Authenticate" />
+                    <option name="value" value="Basic realm=&quot;Realm&quot;" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="0" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Thu, 11 Apr 2024 12:29:07 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Keep-Alive" />
+                    <option name="value" value="timeout=60" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="keep-alive" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="1eb2b9d6-1776-4e4f-be8e-9d79a653e4bf" />
+              <option name="message" value="Unauthorized" />
+              <option name="time" value="20" />
+            </responseState>
+          </option>
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1713263692555" />
+          <option name="id" value="ebfdd028-58b7-4197-96e6-32ddacce272b" />
+          <option name="request">
+            <requestState>
+              <option name="id" value="3650ab41-b320-40d9-bb2a-f4cf49276393" />
+              <option name="method" value="GET" />
+              <option name="name" value="GetById" />
+              <option name="url" value="http://localhost:8080/products/599cb1f5-49e3-4761-8ac0-29e71cc8fcee" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJpZCI6IjU5OWNiMWY1LTQ5ZTMtNDc2MS04YWMwLTI5ZTcxY2M4ZmNlZSIsIm5hbWUiOiJHRUxBREVJUkEiLCJwcmljZSI6MjEwMC4wLCJjcmVhdGVkQXQiOiIyMDI0LTA0LTAyVDA5OjA5OjA5LjEzMDExOCIsInVwZGF0ZUF0IjpudWxsfQ==" />
+              <option name="bodyString" value="{&#10;  &quot;id&quot; : &quot;599cb1f5-49e3-4761-8ac0-29e71cc8fcee&quot;,&#10;  &quot;name&quot; : &quot;GELADEIRA&quot;,&#10;  &quot;price&quot; : 2100.0,&#10;  &quot;createdAt&quot; : &quot;2024-04-02T09:09:09.130118&quot;,&#10;  &quot;updateAt&quot; : null&#10;}" />
+              <option name="code" value="200" />
+              <option name="contentType" value="application/hal+json" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Vary" />
+                    <option name="value" value="Origin" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Vary" />
+                    <option name="value" value="Access-Control-Request-Method" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Vary" />
+                    <option name="value" value="Access-Control-Request-Headers" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="X-Content-Type-Options" />
+                    <option name="value" value="nosniff" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="X-XSS-Protection" />
+                    <option name="value" value="0" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Cache-Control" />
+                    <option name="value" value="no-cache, no-store, max-age=0, must-revalidate" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Pragma" />
+                    <option name="value" value="no-cache" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Expires" />
+                    <option name="value" value="0" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="X-Frame-Options" />
+                    <option name="value" value="DENY" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/hal+json" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Transfer-Encoding" />
+                    <option name="value" value="chunked" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Tue, 16 Apr 2024 10:34:52 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Keep-Alive" />
+                    <option name="value" value="timeout=60" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="keep-alive" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="ebfdd028-58b7-4197-96e6-32ddacce272b" />
+              <option name="message" value="OK" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;id&quot;:&quot;599cb1f5-49e3-4761-8ac0-29e71cc8fcee&quot;,&quot;name&quot;:&quot;GELADEIRA&quot;,&quot;price&quot;:2100.0,&quot;createdAt&quot;:&quot;2024-04-02T09:09:09.130118&quot;,&quot;updateAt&quot;:null}" />
+              <option name="size" value="136" />
+              <option name="time" value="509" />
+            </responseState>
+          </option>
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1713263726256" />
+          <option name="id" value="f8fed9cf-3d65-4c69-a1f4-37326a1379eb" />
+          <option name="request">
+            <requestState>
+              <option name="id" value="3650ab41-b320-40d9-bb2a-f4cf49276393" />
+              <option name="method" value="GET" />
+              <option name="name" value="GetById" />
+              <option name="url" value="http://localhost:8080/products/599cb1f5-49e3-4761-8ac0-29e71cc8fcee" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="code" value="401" />
+              <option name="contentType" value="application/octet-stream" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Vary" />
+                    <option name="value" value="Origin" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Vary" />
+                    <option name="value" value="Access-Control-Request-Method" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Vary" />
+                    <option name="value" value="Access-Control-Request-Headers" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Set-Cookie" />
+                    <option name="value" value="JSESSIONID=0FF742C84C4630AF5AF046F515CE2C4B; Path=/; HttpOnly" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="WWW-Authenticate" />
+                    <option name="value" value="Basic realm=&quot;Realm&quot;" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="X-Content-Type-Options" />
+                    <option name="value" value="nosniff" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="X-XSS-Protection" />
+                    <option name="value" value="0" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Cache-Control" />
+                    <option name="value" value="no-cache, no-store, max-age=0, must-revalidate" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Pragma" />
+                    <option name="value" value="no-cache" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Expires" />
+                    <option name="value" value="0" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="X-Frame-Options" />
+                    <option name="value" value="DENY" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="0" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Tue, 16 Apr 2024 10:35:26 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Keep-Alive" />
+                    <option name="value" value="timeout=60" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="keep-alive" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="f8fed9cf-3d65-4c69-a1f4-37326a1379eb" />
+              <option name="message" value="Unauthorized" />
+              <option name="time" value="31" />
             </responseState>
           </option>
         </requestHistoryState>
