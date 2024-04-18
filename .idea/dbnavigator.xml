@@ -17,7 +17,7 @@
   </component>
   <component name="DBNavigator.Project.DatabaseConsoleManager">
     <connection id="e2391940-7920-447d-8f37-61276c280c38">
-      <console name="MYSQL (LOCAL) 1" type="STANDARD" schema="market" session="Main" />
+      <console name="MYSQL (LOCAL) 1" type="STANDARD" schema="market" session="Main"><![CDATA[select * from tb_products]]></console>
     </connection>
   </component>
   <component name="DBNavigator.Project.DatabaseEditorStateManager">

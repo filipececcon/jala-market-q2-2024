@@ -46,7 +46,7 @@ public class ProductController {
 
     @GetMapping("/{id}")
     @Cacheable(value="product")
-    public ResponseEntity<ProductResponseDto> get(@PathVariable(value = "id") UUID id){
+    public ResponseEntity<ProductResponseDto> get(@PathVariable(value = "id") String id){
 
         System.out.println("BUSCOU O PRODUTO: " + id);
 
@@ -65,14 +65,14 @@ public class ProductController {
 
     @PutMapping("/{id}")
     @CachePut(value = "product")
-    public ResponseEntity<ProductResponseDto> update(@PathVariable(value = "id") UUID id, @RequestBody @Valid ProductRequestDto dto){
+    public ResponseEntity<ProductResponseDto> update(@PathVariable(value = "id") String id, @RequestBody @Valid ProductRequestDto dto){
 
         return ResponseEntity.status(HttpStatus.OK).body(service.update(dto, id));
     }
 
     @DeleteMapping("/{id}")
     @CacheEvict(value="product", allEntries = true)
-    public ResponseEntity<Product> delete(@PathVariable(value = "id") UUID id){
+    public ResponseEntity<Product> delete(@PathVariable(value = "id") String id){
 
         if(service.delete(id)){
             return ResponseEntity.status(HttpStatus.OK).body(null);

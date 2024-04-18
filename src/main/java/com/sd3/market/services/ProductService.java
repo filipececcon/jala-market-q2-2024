@@ -33,7 +33,7 @@ public class ProductService {
         return ProductFactory.Create(repository.save(product));
     }
 
-    public ProductResponseDto getById(UUID id){
+    public ProductResponseDto getById(String id){
 
         Optional<Product> result = repository.findById(id);
 
@@ -54,27 +54,29 @@ public class ProductService {
         return products;
     }
 
-    public ProductResponseDto update(ProductRequestDto dto, UUID id){
+    public ProductResponseDto update(ProductRequestDto dto, String id){
 
         Optional<Product> result = repository.findById(id);
 
         if(result.isEmpty()) return null;
 
-        result.get().setName(dto.name());
-        result.get().setPrice(dto.price());
+        Product toUpdate = result.get();
 
-        Product saved = repository.save(result.get());
+        toUpdate.setName(dto.name());
+        toUpdate.setPrice(dto.price());
+
+        Product saved = repository.save(toUpdate);
 
         return ProductFactory.Create(saved);
     }
 
-    public boolean delete(UUID id){
+    public boolean delete(String id){
 
         Optional<Product> result = repository.findById(id);
 
         if(result.isEmpty()) return false;
 
-        repository.delete(result.get());
+        repository.deleteById(id);
 
         return true;
     }

@@ -3,14 +3,19 @@ package com.sd3.market.entities;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Table;
+import org.springframework.data.mongodb.core.mapping.Document;
+import org.springframework.data.mongodb.core.mapping.Field;
 
-@Entity
-@Table(name="TB_PRODUCTS")
-public class Product extends AbstractEntity{
+//@Entity
+//@Table(name="TB_PRODUCTS")
+@Document(collection = "tb_products")
+public class Product extends NoRelationalEntity{
 
-    @Column(name = "NM_PRODUCT")
+    //@Column(name = "NM_PRODUCT")
+    @Field("nm_product")
     private String Name;
-    @Column(name = "VL_PRICE")
+    //@Column(name = "VL_PRICE")
+    @Field("vl_price")
     private Double Price;
 
     public String getName() {

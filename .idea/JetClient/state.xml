@@ -27,10 +27,11 @@
                   <authState>
                     <option name="basic">
                       <basicAuthState>
-                        <option name="pass" value="08d9a03f-114f-4752-bbf6-4c2a29a31746" />
+                        <option name="pass" value="6c6bf6cd-81f2-43b1-9142-fc55506da800" />
                         <option name="username" value="user" />
                       </basicAuthState>
                     </option>
+                    <option name="type" value="BASIC" />
                   </authState>
                 </option>
                 <option name="id" value="004872c6-4d6e-47c8-b306-274d507a18a8" />
@@ -40,7 +41,7 @@
                     <requestState>
                       <option name="body">
                         <bodyState>
-                          <option name="raw" value="{&#10;  &quot;name&quot;: &quot;FOGAO&quot;,&#10;  &quot;price&quot;: 1500.00&#10;}" />
+                          <option name="raw" value="{&#10;  &quot;name&quot;: &quot;PAO&quot;,&#10;  &quot;price&quot;: 15.00&#10;}" />
                           <option name="type" value="JSON" />
                         </bodyState>
                       </option>
@@ -61,7 +62,7 @@
                       <option name="id" value="3650ab41-b320-40d9-bb2a-f4cf49276393" />
                       <option name="method" value="GET" />
                       <option name="name" value="GetById" />
-                      <option name="url" value="http://localhost:8080/products/599cb1f5-49e3-4761-8ac0-29e71cc8fcee" />
+                      <option name="url" value="http://localhost:8080/products/6620fd7a169d666461a11554" />
                     </requestState>
                     <requestState>
                       <option name="id" value="54f9f836-f6c7-4b85-8802-97d70d4ff339" />
@@ -72,7 +73,7 @@
                     <requestState>
                       <option name="body">
                         <bodyState>
-                          <option name="raw" value="{&#10;  &quot;name&quot;: &quot;GELADEIRA&quot;,&#10;  &quot;price&quot;: 2100.00&#10;}" />
+                          <option name="raw" value="{&#10;  &quot;name&quot;: &quot;TABLET&quot;,&#10;  &quot;price&quot;: 2100.00&#10;}" />
                           <option name="type" value="JSON" />
                         </bodyState>
                       </option>
@@ -87,19 +88,13 @@
                       <option name="id" value="d316bbc9-387f-4756-9d2d-f5ca331840fd" />
                       <option name="method" value="PUT" />
                       <option name="name" value="Update" />
-                      <option name="url" value="http://localhost:8080/products/599cb1f5-49e3-4761-8ac0-29e71cc8fcee" />
+                      <option name="url" value="http://localhost:8080/products/a605ec9261e24eaab1ee91792a5ac8cc" />
                     </requestState>
                     <requestState>
                       <option name="id" value="0959cdb4-8363-4bd3-b36e-08063921b539" />
                       <option name="method" value="DELETE" />
                       <option name="name" value="Delete" />
-                      <option name="url" value="http://localhost:8080/products/6fd40380-57d9-4c5b-b74a-f7e27a2b7d3d" />
-                    </requestState>
-                    <requestState>
-                      <option name="id" value="b79fee18-3201-479d-9c39-059667735b79" />
-                      <option name="method" value="GET" />
-                      <option name="name" value="New Request" />
-                      <option name="url" value="http://localhost:8080/products/3f8e6d2d-93d7-43bf-a6e6-6ba7a07fb384" />
+                      <option name="url" value="http://localhost:8080/products/6621054b689d61185b744f54" />
                     </requestState>
                   </list>
                 </option>

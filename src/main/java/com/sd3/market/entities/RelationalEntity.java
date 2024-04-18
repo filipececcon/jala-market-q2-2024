@@ -2,15 +2,13 @@ package com.sd3.market.entities;
 
 import jakarta.persistence.*;
 
-import java.io.Serializable;
 import java.time.LocalDateTime;
-import java.util.Date;
 import java.util.UUID;
 
 @MappedSuperclass
-public abstract class AbstractEntity {
+public abstract class RelationalEntity {
 
-    AbstractEntity(){
+    RelationalEntity(){
         LocalDateTime now = LocalDateTime.now();
         CreatedAt = now;
         UpdatedAt = now;

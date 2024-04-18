@@ -5,7 +5,7 @@ import java.time.LocalDateTime;
 import java.util.UUID;
 
 public record ProductDetailsResponseDto(
-        UUID id,
+        String id,
         String name,
         Double price,
         LocalDateTime createdAt,

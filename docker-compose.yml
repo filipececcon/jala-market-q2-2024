@@ -19,3 +19,13 @@ services:
       - '9090:8080'
     depends_on:
       - db
+
+  mongo:
+    image: mongo
+    restart: always
+    container_name: mongodb
+    ports:
+      - 27017:27017
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: root
+      MONGO_INITDB_ROOT_PASSWORD: root

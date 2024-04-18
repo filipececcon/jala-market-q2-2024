@@ -4,22 +4,21 @@ import org.springframework.hateoas.RepresentationModel;
 
 import java.io.Serializable;
 import java.time.LocalDateTime;
-import java.util.UUID;
 
 public class ProductResponseDto extends RepresentationModel<ProductResponseDto> implements Serializable {
 
-    private UUID id;
+    private String id;
     private String name;
     private Double price;
     private LocalDateTime createdAt;
     private LocalDateTime updateAt;
 
 
-    public UUID getId() {
+    public String getId() {
         return id;
     }
 
-    public void setId(UUID id) {
+    public void setId(String id) {
         this.id = id;
     }
 
