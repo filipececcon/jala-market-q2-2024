@@ -3335,97 +3335,6 @@
           </option>
         </requestHistoryState>
         <requestHistoryState>
-          <option name="dateTime" value="1714044428082" />
-          <option name="id" value="50dd35a4-479e-4418-a4c6-57707c42bf6b" />
-          <option name="request">
-            <requestState>
-              <option name="id" value="3650ab41-b320-40d9-bb2a-f4cf49276393" />
-              <option name="method" value="GET" />
-              <option name="name" value="GetById" />
-              <option name="url" value="http://localhost:8080/products/6620fd7a169d666461a11543" />
-            </requestState>
-          </option>
-          <option name="response">
-            <responseState>
-              <option name="code" value="404" />
-              <option name="contentType" value="application/octet-stream" />
-              <option name="headers">
-                <list>
-                  <headerState>
-                    <option name="key" value="Content-Length" />
-                    <option name="value" value="0" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Date" />
-                    <option name="value" value="Thu, 25 Apr 2024 11:27:08 GMT" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Keep-Alive" />
-                    <option name="value" value="timeout=60" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Connection" />
-                    <option name="value" value="keep-alive" />
-                  </headerState>
-                </list>
-              </option>
-              <option name="id" value="50dd35a4-479e-4418-a4c6-57707c42bf6b" />
-              <option name="message" value="Not Found" />
-              <option name="time" value="41387" />
-            </responseState>
-          </option>
-        </requestHistoryState>
-        <requestHistoryState>
-          <option name="dateTime" value="1714044733411" />
-          <option name="id" value="c68f87af-bff2-443b-b4d7-efb17bb13429" />
-          <option name="request">
-            <requestState>
-              <option name="id" value="3650ab41-b320-40d9-bb2a-f4cf49276393" />
-              <option name="method" value="GET" />
-              <option name="name" value="GetById" />
-              <option name="url" value="http://localhost:8080/products/6620fd7a169d666461a11543" />
-            </requestState>
-          </option>
-          <option name="response">
-            <responseState>
-              <option name="bodyBytesBase64" value="eyJpZCI6IjY2MjBmZDdhMTY5ZDY2NjQ2MWExMTU0MyIsIm5hbWUiOiJhemVpdGUiLCJwcmljZSI6MzUuOTksImNyZWF0ZWRBdCI6IjIwMjQtMDMtMjZUMDg6NTk6MjAuNDQxIiwidXBkYXRlQXQiOiIyMDI0LTAzLTI2VDA4OjU5OjIwLjQ0MSJ9" />
-              <option name="bodyString" value="{&#10;  &quot;id&quot; : &quot;6620fd7a169d666461a11543&quot;,&#10;  &quot;name&quot; : &quot;azeite&quot;,&#10;  &quot;price&quot; : 35.99,&#10;  &quot;createdAt&quot; : &quot;2024-03-26T08:59:20.441&quot;,&#10;  &quot;updateAt&quot; : &quot;2024-03-26T08:59:20.441&quot;&#10;}" />
-              <option name="code" value="200" />
-              <option name="contentType" value="application/json" />
-              <option name="headers">
-                <list>
-                  <headerState>
-                    <option name="key" value="Content-Type" />
-                    <option name="value" value="application/json" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Transfer-Encoding" />
-                    <option name="value" value="chunked" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Date" />
-                    <option name="value" value="Thu, 25 Apr 2024 11:32:13 GMT" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Keep-Alive" />
-                    <option name="value" value="timeout=60" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Connection" />
-                    <option name="value" value="keep-alive" />
-                  </headerState>
-                </list>
-              </option>
-              <option name="id" value="c68f87af-bff2-443b-b4d7-efb17bb13429" />
-              <option name="message" value="OK" />
-              <option name="prettyResponseType" value="JSON" />
-              <option name="rawBodyString" value="{&quot;id&quot;:&quot;6620fd7a169d666461a11543&quot;,&quot;name&quot;:&quot;azeite&quot;,&quot;price&quot;:35.99,&quot;createdAt&quot;:&quot;2024-03-26T08:59:20.441&quot;,&quot;updateAt&quot;:&quot;2024-03-26T08:59:20.441&quot;}" />
-              <option name="size" value="138" />
-              <option name="time" value="437" />
-            </responseState>
-          </option>
-        </requestHistoryState>
-        <requestHistoryState>
           <option name="dateTime" value="1714044756685" />
           <option name="id" value="fa24d6e7-9d56-4891-92c0-e194fcd568b9" />
           <option name="request">
@@ -4856,6 +4765,138 @@
               <option name="rawBodyString" value="{&quot;content&quot;:[{&quot;id&quot;:&quot;6620fd7a169d666461a11543&quot;,&quot;name&quot;:&quot;azeite&quot;,&quot;price&quot;:35.99,&quot;createdAt&quot;:&quot;2024-03-26T08:59:20.441&quot;,&quot;updateAt&quot;:&quot;2024-03-26T08:59:20.441&quot;},{&quot;id&quot;:&quot;6620fd7a169d666461a11544&quot;,&quot;name&quot;:&quot;vinagre&quot;,&quot;price&quot;:9.99,&quot;createdAt&quot;:&quot;2024-03-26T08:59:10.675&quot;,&quot;updateAt&quot;:&quot;2024-03-26T08:59:10.675&quot;},{&quot;id&quot;:&quot;6620fd7a169d666461a11545&quot;,&quot;name&quot;:&quot;arroz&quot;,&quot;price&quot;:5.99,&quot;createdAt&quot;:&quot;2024-03-26T08:38:55.531&quot;,&quot;updateAt&quot;:&quot;2024-03-26T08:38:55.531&quot;},{&quot;id&quot;:&quot;6620fd7a169d666461a11546&quot;,&quot;name&quot;:&quot;milho&quot;,&quot;price&quot;:5.99,&quot;createdAt&quot;:&quot;2024-03-26T08:57:53.279&quot;,&quot;updateAt&quot;:&quot;2024-03-26T08:57:53.279&quot;},{&quot;id&quot;:&quot;6620fd7a169d666461a11547&quot;,&quot;name&quot;:&quot;feijão&quot;,&quot;price&quot;:10.99,&quot;createdAt&quot;:&quot;2024-03-26T08:58:04.616&quot;,&quot;updateAt&quot;:&quot;2024-03-26T08:58:04.616&quot;},{&quot;id&quot;:&quot;6620fd7a169d666461a11548&quot;,&quot;name&quot;:&quot;peixe&quot;,&quot;price&quot;:30.99,&quot;createdAt&quot;:&quot;2024-03-28T09:22:02.382&quot;,&quot;updateAt&quot;:&quot;2024-03-28T09:22:02.382&quot;},{&quot;id&quot;:&quot;6620fd7a169d666461a11549&quot;,&quot;name&quot;:&quot;coca-cola&quot;,&quot;price&quot;:11.99,&quot;createdAt&quot;:&quot;2024-03-26T08:58:17.916&quot;,&quot;updateAt&quot;:&quot;2024-03-26T08:58:17.916&quot;},{&quot;id&quot;:&quot;6620fd7a169d666461a1154a&quot;,&quot;name&quot;:&quot;GELADEIRA&quot;,&quot;price&quot;:2100.0,&quot;createdAt&quot;:&quot;2024-04-02T09:09:09.13&quot;,&quot;updateAt&quot;:&quot;2024-04-02T09:09:09.13&quot;},{&quot;id&quot;:&quot;6620fd7a169d666461a1154b&quot;,&quot;name&quot;:&quot;manteiga&quot;,&quot;price&quot;:4.99,&quot;createdAt&quot;:&quot;2024-03-19T09:27:29.253&quot;,&quot;updateAt&quot;:&quot;2024-03-19T09:27:29.253&quot;},{&quot;id&quot;:&quot;6620fd7a169d666461a1154c&quot;,&quot;name&quot;:&quot;carne&quot;,&quot;price&quot;:3.99,&quot;createdAt&quot;:&quot;2024-03-28T09:15:25.888&quot;,&quot;updateAt&quot;:&quot;2024-03-28T09:15:25.888&quot;},{&quot;id&quot;:&quot;6620fd7a169d666461a1154d&quot;,&quot;name&quot;:&quot;nutella&quot;,&quot;price&quot;:15.99,&quot;createdAt&quot;:&quot;2024-03-26T08:53:19.585&quot;,&quot;updateAt&quot;:&quot;2024-03-26T08:53:19.585&quot;},{&quot;id&quot;:&quot;6620fd7a169d666461a1154e&quot;,&quot;name&quot;:&quot;molho&quot;,&quot;price&quot;:3.99,&quot;createdAt&quot;:&quot;2024-03-28T09:10:51.365&quot;,&quot;updateAt&quot;:&quot;2024-03-28T09:10:51.365&quot;},{&quot;id&quot;:&quot;6620fd7a169d666461a1154f&quot;,&quot;name&quot;:&quot;carvão&quot;,&quot;price&quot;:29.99,&quot;createdAt&quot;:&quot;2024-03-26T08:58:56.154&quot;,&quot;updateAt&quot;:&quot;2024-03-26T08:58:56.154&quot;},{&quot;id&quot;:&quot;6620fd7a169d666461a11550&quot;,&quot;name&quot;:&quot;PNEU&quot;,&quot;price&quot;:300.0,&quot;createdAt&quot;:&quot;2024-04-02T08:48:08.897&quot;,&quot;updateAt&quot;:&quot;2024-04-02T08:48:08.897&quot;},{&quot;id&quot;:&quot;6620fd7a169d666461a11551&quot;,&quot;name&quot;:&quot;atum&quot;,&quot;price&quot;:6.9,&quot;createdAt&quot;:&quot;2024-04-02T07:50:35.506&quot;,&quot;updateAt&quot;:&quot;2024-04-02T07:50:35.506&quot;},{&quot;id&quot;:&quot;6620fd7a169d666461a11552&quot;,&quot;name&quot;:&quot;mussarela&quot;,&quot;price&quot;:3.99,&quot;createdAt&quot;:&quot;2024-03-26T08:58:39.142&quot;,&quot;updateAt&quot;:&quot;2024-03-26T08:58:39.142&quot;},{&quot;id&quot;:&quot;6620fd7a169d666461a11553&quot;,&quot;name&quot;:&quot;GELO&quot;,&quot;price&quot;:12.9,&quot;createdAt&quot;:&quot;2024-04-02T08:46:17.32&quot;,&quot;updateAt&quot;:&quot;2024-04-02T08:46:17.32&quot;},{&quot;id&quot;:&quot;6620fd7a169d666461a11554&quot;,&quot;name&quot;:&quot;pneu&quot;,&quot;price&quot;:300.99,&quot;createdAt&quot;:&quot;2024-03-28T09:20:17.235&quot;,&quot;updateAt&quot;:&quot;2024-03-28T09:20:17.235&quot;},{&quot;id&quot;:&quot;662a408b20e6b9794a01ee18&quot;,&quot;name&quot;:&quot;MORTADELA&quot;,&quot;price&quot;:18.0,&quot;createdAt&quot;:&quot;2024-04-25T08:37:47.772&quot;,&quot;updateAt&quot;:&quot;2024-04-25T08:53:37.529&quot;}],&quot;pageable&quot;:&quot;INSTANCE&quot;,&quot;last&quot;:true,&quot;totalElements&quot;:19,&quot;totalPages&quot;:1,&quot;first&quot;:true,&quot;size&quot;:19,&quot;number&quot;:0,&quot;sort&quot;:{&quot;empty&quot;:true,&quot;sorted&quot;:false,&quot;unsorted&quot;:true},&quot;numberOfElements&quot;:19,&quot;empty&quot;:false}" />
               <option name="size" value="2837" />
               <option name="time" value="100" />
+            </responseState>
+          </option>
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1714046176302" />
+          <option name="id" value="3bb2526b-77cb-4219-81f7-70ab3c77912f" />
+          <option name="request">
+            <requestState>
+              <option name="id" value="3650ab41-b320-40d9-bb2a-f4cf49276393" />
+              <option name="method" value="GET" />
+              <option name="name" value="GetById" />
+              <option name="url" value="http://localhost:8080/products/662a408b20e6b9794a01ee18" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJpZCI6IjY2MmE0MDhiMjBlNmI5Nzk0YTAxZWUxOCIsIm5hbWUiOiJNT1JUQURFTEEiLCJwcmljZSI6MTguMCwiY3JlYXRlZEF0IjoiMjAyNC0wNC0yNVQwODozNzo0Ny43NzIiLCJ1cGRhdGVBdCI6IjIwMjQtMDQtMjVUMDg6NTM6MzcuNTI5In0=" />
+              <option name="bodyString" value="{&#10;  &quot;id&quot; : &quot;662a408b20e6b9794a01ee18&quot;,&#10;  &quot;name&quot; : &quot;MORTADELA&quot;,&#10;  &quot;price&quot; : 18.0,&#10;  &quot;createdAt&quot; : &quot;2024-04-25T08:37:47.772&quot;,&#10;  &quot;updateAt&quot; : &quot;2024-04-25T08:53:37.529&quot;&#10;}" />
+              <option name="code" value="200" />
+              <option name="contentType" value="application/json" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Transfer-Encoding" />
+                    <option name="value" value="chunked" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Thu, 25 Apr 2024 11:56:16 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Keep-Alive" />
+                    <option name="value" value="timeout=60" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="keep-alive" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="3bb2526b-77cb-4219-81f7-70ab3c77912f" />
+              <option name="message" value="OK" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;id&quot;:&quot;662a408b20e6b9794a01ee18&quot;,&quot;name&quot;:&quot;MORTADELA&quot;,&quot;price&quot;:18.0,&quot;createdAt&quot;:&quot;2024-04-25T08:37:47.772&quot;,&quot;updateAt&quot;:&quot;2024-04-25T08:53:37.529&quot;}" />
+              <option name="size" value="140" />
+              <option name="time" value="322" />
+            </responseState>
+          </option>
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1714046187137" />
+          <option name="id" value="8723df08-d961-4266-b52b-272f969fe689" />
+          <option name="request">
+            <requestState>
+              <option name="id" value="0959cdb4-8363-4bd3-b36e-08063921b539" />
+              <option name="method" value="DELETE" />
+              <option name="name" value="Delete" />
+              <option name="url" value="http://localhost:8080/products/662a408b20e6b9794a01ee18" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="code" value="200" />
+              <option name="contentType" value="application/octet-stream" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="0" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Thu, 25 Apr 2024 11:56:27 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Keep-Alive" />
+                    <option name="value" value="timeout=60" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="keep-alive" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="8723df08-d961-4266-b52b-272f969fe689" />
+              <option name="message" value="OK" />
+              <option name="time" value="122" />
+            </responseState>
+          </option>
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1714046192273" />
+          <option name="id" value="a525c9ff-fdbf-4208-bf7d-09d480cfc397" />
+          <option name="request">
+            <requestState>
+              <option name="id" value="3650ab41-b320-40d9-bb2a-f4cf49276393" />
+              <option name="method" value="GET" />
+              <option name="name" value="GetById" />
+              <option name="url" value="http://localhost:8080/products/662a408b20e6b9794a01ee18" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="code" value="404" />
+              <option name="contentType" value="application/octet-stream" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="0" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Thu, 25 Apr 2024 11:56:32 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Keep-Alive" />
+                    <option name="value" value="timeout=60" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="keep-alive" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="a525c9ff-fdbf-4208-bf7d-09d480cfc397" />
+              <option name="message" value="Not Found" />
+              <option name="time" value="26" />
             </responseState>
           </option>
         </requestHistoryState>
