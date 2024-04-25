@@ -6,12 +6,15 @@ import com.sd3.market.dto.ProductResponseDto;
 import com.sd3.market.entities.Product;
 import com.sd3.market.factories.ProductFactory;
 import com.sd3.market.repositories.ProductRepository;
+import org.bson.types.ObjectId;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
+import org.springframework.data.domain.PageImpl;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 
+import java.time.LocalDateTime;
 import java.util.List;
 import java.util.Optional;
 import java.util.UUID;
@@ -30,33 +33,35 @@ public class ProductService {
 
         BeanUtils.copyProperties(request, product);
 
-        return ProductFactory.Create(repository.save(product));
+        Product result = repository.insert(product);
+
+        return ProductFactory.Create(result);
     }
 
-    public ProductResponseDto getById(String id){
+    public ProductDetailsResponseDto getById(String id){
 
-        Optional<Product> result = repository.findById(id);
+        ObjectId _id = new ObjectId(id);
 
-        return result.isEmpty() ? null : ProductFactory.Create(result.get());
+        Optional<Product> result = repository.findById(_id);
+
+        return result.isEmpty() ? null : ProductFactory.CreateDetails(result.get());
     }
 
-    public Page<Product> getAll(Pageable pageable){
+    public Page<ProductDetailsResponseDto> getAll(Pageable pageable){
 
         Page<Product> products = repository.findAll(pageable);
 
+        List<ProductDetailsResponseDto> results = products
+                .stream()
+                .map(ProductFactory::CreateDetails)
+                .toList();
 
-
-//        List<ProductDetailsResponseDto> results = products
-//                .stream()
-//                .map(ProductFactory::CreateDetails)
-//                .collect(Collectors.toList());
-
-        return products;
+        return new PageImpl<>(results);
     }
 
     public ProductResponseDto update(ProductRequestDto dto, String id){
 
-        Optional<Product> result = repository.findById(id);
+        Optional<Product> result = repository.findById(new ObjectId(id));
 
         if(result.isEmpty()) return null;
 
@@ -65,6 +70,8 @@ public class ProductService {
         toUpdate.setName(dto.name());
         toUpdate.setPrice(dto.price());
 
+        toUpdate.update();
+
         Product saved = repository.save(toUpdate);
 
         return ProductFactory.Create(saved);
@@ -72,11 +79,13 @@ public class ProductService {
 
     public boolean delete(String id){
 
-        Optional<Product> result = repository.findById(id);
+        ObjectId _id = new ObjectId(id);
+
+        Optional<Product> result = repository.findById(_id);
 
         if(result.isEmpty()) return false;
 
-        repository.deleteById(id);
+        repository.deleteById(_id);
 
         return true;
     }

@@ -8,7 +8,7 @@ import org.springframework.beans.BeanUtils;
 public class ProductFactory {
     public static ProductDetailsResponseDto CreateDetails(Product product){
         return new ProductDetailsResponseDto(
-                product.getId(),
+                product.getStringId(),
                 product.getName(),
                 product.getPrice(),
                 product.getCreatedAt(),
@@ -21,6 +21,9 @@ public class ProductFactory {
         ProductResponseDto dto = new ProductResponseDto();
 
         BeanUtils.copyProperties(product, dto);
+
+        dto.setId(product.getStringId());
+        dto.setUpdateAt(product.getUpdatedAt());
 
         return dto;
     }

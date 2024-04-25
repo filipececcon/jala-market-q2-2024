@@ -2,7 +2,9 @@ package com.sd3.market.entities;
 
 import jakarta.persistence.Id;
 import jakarta.persistence.MappedSuperclass;
+import org.bson.types.ObjectId;
 import org.springframework.data.mongodb.core.mapping.Field;
+import org.springframework.data.mongodb.core.mapping.MongoId;
 
 import java.time.LocalDateTime;
 import java.util.UUID;
@@ -15,12 +17,13 @@ public abstract class NoRelationalEntity {
         CreatedAt = now;
         UpdatedAt = now;
         Active = true;
-        Id = UUID.randomUUID().toString().replace("-","");
+        id = new ObjectId();
+        //Id = UUID.randomUUID().toString().replace("-","");
     }
 
-    @Id
+    @MongoId
     @Field("_id")
-    private String Id;
+    private ObjectId id;
     @Field("dt_created_at")
     private LocalDateTime CreatedAt;
     @Field("dt_updated_at")
@@ -28,12 +31,16 @@ public abstract class NoRelationalEntity {
     @Field("st_active")
     private Boolean Active;
 
-    public String getId() {
-        return Id;
+    public ObjectId getId() {
+        return id;
     }
 
-    public void setId(String id) {
-        Id = id;
+    public String getStringId(){
+        return getId().toHexString();
+    }
+
+    public void setId(ObjectId id) {
+        this.id = id;
     }
 
     public LocalDateTime getCreatedAt() {
@@ -48,7 +55,7 @@ public abstract class NoRelationalEntity {
         return UpdatedAt;
     }
 
-    public void setUpdatedAt(LocalDateTime updatedAt) {
+    private void setUpdatedAt(LocalDateTime updatedAt) {
         UpdatedAt = updatedAt;
     }
 
@@ -58,6 +65,10 @@ public abstract class NoRelationalEntity {
 
     public void setActive(Boolean active) {
         Active = active;
+    }
+
+    public void update(){
+        this.UpdatedAt = LocalDateTime.now();
     }
 
 }

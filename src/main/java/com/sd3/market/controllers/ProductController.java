@@ -46,11 +46,11 @@ public class ProductController {
 
     @GetMapping("/{id}")
     @Cacheable(value="product")
-    public ResponseEntity<ProductResponseDto> get(@PathVariable(value = "id") String id){
+    public ResponseEntity<ProductDetailsResponseDto> get(@PathVariable(value = "id") String id){
 
         System.out.println("BUSCOU O PRODUTO: " + id);
 
-        ProductResponseDto result = service.getById(id);
+        ProductDetailsResponseDto result = service.getById(id);
 
         if(result == null) return ResponseEntity.status(HttpStatus.NOT_FOUND).body(null);
 
@@ -58,7 +58,7 @@ public class ProductController {
     }
 
     @GetMapping
-    public ResponseEntity<Page<Product>> getAll(@PageableDefault(page = 0, size = 3) Pageable pageable){
+    public ResponseEntity<Page<ProductDetailsResponseDto>> getAll(@PageableDefault(page = 0, size = 3) Pageable pageable){
 
         return ResponseEntity.status(HttpStatus.OK).body(service.getAll(pageable));
     }
@@ -67,7 +67,9 @@ public class ProductController {
     @CachePut(value = "product")
     public ResponseEntity<ProductResponseDto> update(@PathVariable(value = "id") String id, @RequestBody @Valid ProductRequestDto dto){
 
-        return ResponseEntity.status(HttpStatus.OK).body(service.update(dto, id));
+        ProductResponseDto result = service.update(dto, id);
+
+        return ResponseEntity.status(HttpStatus.OK).body(result);
     }
 
     @DeleteMapping("/{id}")
