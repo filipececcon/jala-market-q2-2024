@@ -33,7 +33,7 @@ public class ProductController {
 
     @PostMapping
     @Cacheable(value="product")
-    public ResponseEntity<ProductResponseDto> create(@RequestBody @Valid ProductRequestDto dto){
+    public ResponseEntity<ProductResponseDto> create(@RequestBody @Valid ProductRequestDto dto) throws Exception{
 
         System.out.println("ENTROU NO METODO");
 

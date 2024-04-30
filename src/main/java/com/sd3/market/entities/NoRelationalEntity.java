@@ -12,7 +12,7 @@ import java.util.UUID;
 @MappedSuperclass
 public abstract class NoRelationalEntity {
 
-    NoRelationalEntity(){
+    public NoRelationalEntity(){
         LocalDateTime now = LocalDateTime.now();
         CreatedAt = now;
         UpdatedAt = now;

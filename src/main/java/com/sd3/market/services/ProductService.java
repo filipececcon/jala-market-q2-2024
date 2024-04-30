@@ -27,7 +27,11 @@ public class ProductService {
     ProductRepository repository;
 
 
-    public ProductResponseDto create(ProductRequestDto request){
+    public ProductResponseDto create(ProductRequestDto request) throws Exception{
+
+        var exists = repository.findByName(request.name());
+
+        if(exists != null) throw new Exception("O produto já existe");
 
         Product product = new Product();
 
