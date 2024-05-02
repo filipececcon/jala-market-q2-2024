@@ -4,6 +4,7 @@ import com.sd3.market.dto.ProductDetailsResponseDto;
 import com.sd3.market.dto.ProductRequestDto;
 import com.sd3.market.dto.ProductResponseDto;
 import com.sd3.market.entities.Product;
+import com.sd3.market.exceptions.ProductException;
 import com.sd3.market.factories.ProductFactory;
 import com.sd3.market.repositories.ProductRepository;
 import org.bson.types.ObjectId;
@@ -31,7 +32,7 @@ public class ProductService {
 
         var exists = repository.findByName(request.name());
 
-        if(exists != null) throw new Exception("O produto já existe");
+        if(exists != null) throw new ProductException("O produto já existe");
 
         Product product = new Product();
 

@@ -4,6 +4,7 @@ import com.sd3.market.dto.ProductDetailsResponseDto;
 import com.sd3.market.dto.ProductRequestDto;
 import com.sd3.market.dto.ProductResponseDto;
 import com.sd3.market.entities.Product;
+import com.sd3.market.exceptions.ProductException;
 import com.sd3.market.services.ProductService;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;

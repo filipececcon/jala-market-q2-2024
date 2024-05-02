@@ -21,12 +21,15 @@ class ProductRepositoryTest {
     @DisplayName("Should save a product on database")
     public void createProduct(){
 
+        //Arrange
         var name = "MELANCIA";
 
         var product = new Product(name, 10.0);
 
+        //Act
         var saved = productRepository.insert(product);
 
+        //Assert
         Assertions.assertEquals(saved.getName(), name);
     }
 

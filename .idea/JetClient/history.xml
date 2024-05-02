@@ -461,70 +461,6 @@
           </option>
         </requestHistoryState>
         <requestHistoryState>
-          <option name="dateTime" value="1712059299162" />
-          <option name="id" value="fb478f0d-b659-4f73-b04f-f560fc5799c1" />
-          <option name="request">
-            <requestState>
-              <option name="body">
-                <bodyState>
-                  <option name="raw" value="{&#10;  &quot;name&quot;: &quot;CHUVEIRO&quot;,&#10;  &quot;price&quot;: 150.00&#10;}" />
-                  <option name="type" value="JSON" />
-                </bodyState>
-              </option>
-              <option name="headers">
-                <list>
-                  <headerState>
-                    <option name="key" value="Content-Type" />
-                    <option name="value" value="application/json" />
-                  </headerState>
-                </list>
-              </option>
-              <option name="id" value="65090908-32bc-4c8d-9ba1-6a01a14fe8a7" />
-              <option name="method" value="POST" />
-              <option name="name" value="Create" />
-              <option name="url" value="http://localhost:8080/products" />
-            </requestState>
-          </option>
-          <option name="response">
-            <responseState>
-              <option name="bodyBytesBase64" value="eyJpZCI6IjZmZDQwMzgwLTU3ZDktNGM1Yi1iNzRhLWY3ZTI3YTJiN2QzZCIsIm5hbWUiOiJDSFVWRUlSTyIsInByaWNlIjoxNTAuMCwiY3JlYXRlZEF0IjoiMjAyNC0wNC0wMlQwOTowMToyNC4zMzMxOTQiLCJ1cGRhdGVBdCI6bnVsbCwiX2xpbmtzIjp7InNlbGYiOnsiaHJlZiI6Imh0dHA6Ly9sb2NhbGhvc3Q6ODA4MC9wcm9kdWN0cy82ZmQ0MDM4MC01N2Q5LTRjNWItYjc0YS1mN2UyN2EyYjdkM2QifX19" />
-              <option name="bodyString" value="{&#10;  &quot;id&quot; : &quot;6fd40380-57d9-4c5b-b74a-f7e27a2b7d3d&quot;,&#10;  &quot;name&quot; : &quot;CHUVEIRO&quot;,&#10;  &quot;price&quot; : 150.0,&#10;  &quot;createdAt&quot; : &quot;2024-04-02T09:01:24.333194&quot;,&#10;  &quot;updateAt&quot; : null,&#10;  &quot;_links&quot; : {&#10;    &quot;self&quot; : {&#10;      &quot;href&quot; : &quot;http://localhost:8080/products/6fd40380-57d9-4c5b-b74a-f7e27a2b7d3d&quot;&#10;    }&#10;  }&#10;}" />
-              <option name="code" value="201" />
-              <option name="contentType" value="application/hal+json" />
-              <option name="headers">
-                <list>
-                  <headerState>
-                    <option name="key" value="Content-Type" />
-                    <option name="value" value="application/hal+json" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Transfer-Encoding" />
-                    <option name="value" value="chunked" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Date" />
-                    <option name="value" value="Tue, 02 Apr 2024 12:01:38 GMT" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Keep-Alive" />
-                    <option name="value" value="timeout=60" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Connection" />
-                    <option name="value" value="keep-alive" />
-                  </headerState>
-                </list>
-              </option>
-              <option name="id" value="fb478f0d-b659-4f73-b04f-f560fc5799c1" />
-              <option name="message" value="Created" />
-              <option name="prettyResponseType" value="JSON" />
-              <option name="rawBodyString" value="{&quot;id&quot;:&quot;6fd40380-57d9-4c5b-b74a-f7e27a2b7d3d&quot;,&quot;name&quot;:&quot;CHUVEIRO&quot;,&quot;price&quot;:150.0,&quot;createdAt&quot;:&quot;2024-04-02T09:01:24.333194&quot;,&quot;updateAt&quot;:null,&quot;_links&quot;:{&quot;self&quot;:{&quot;href&quot;:&quot;http://localhost:8080/products/6fd40380-57d9-4c5b-b74a-f7e27a2b7d3d&quot;}}}" />
-              <option name="size" value="231" />
-              <option name="time" value="3" />
-            </responseState>
-          </option>
-        </requestHistoryState>
-        <requestHistoryState>
           <option name="dateTime" value="1712059299343" />
           <option name="id" value="d8acde1d-2740-4d4f-b014-b92641761103" />
           <option name="request">
@@ -4897,6 +4833,66 @@
               <option name="id" value="a525c9ff-fdbf-4208-bf7d-09d480cfc397" />
               <option name="message" value="Not Found" />
               <option name="time" value="26" />
+            </responseState>
+          </option>
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1714653032447" />
+          <option name="id" value="0b6b1148-ee59-4a47-b346-b781265ce734" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="{&#10;  &quot;name&quot;: &quot;MELANCIA&quot;,&#10;  &quot;price&quot;: 15.00&#10;}" />
+                  <option name="type" value="JSON" />
+                </bodyState>
+              </option>
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="65090908-32bc-4c8d-9ba1-6a01a14fe8a7" />
+              <option name="method" value="POST" />
+              <option name="name" value="Create" />
+              <option name="url" value="http://localhost:8080/products" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="TyBwcm9kdXRvIGrDoSBleGlzdGU=" />
+              <option name="bodyString" value="O produto já existe" />
+              <option name="code" value="400" />
+              <option name="contentType" value="text/plain; charset=UTF-8" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="text/plain;charset=UTF-8" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="20" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Thu, 02 May 2024 12:30:32 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="close" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="0b6b1148-ee59-4a47-b346-b781265ce734" />
+              <option name="message" value="Bad Request" />
+              <option name="prettyResponseType" value="TEXT" />
+              <option name="rawBodyString" value="O produto já existe" />
+              <option name="size" value="20" />
+              <option name="time" value="586" />
             </responseState>
           </option>
         </requestHistoryState>

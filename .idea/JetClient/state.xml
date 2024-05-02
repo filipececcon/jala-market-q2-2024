@@ -41,7 +41,7 @@
                     <requestState>
                       <option name="body">
                         <bodyState>
-                          <option name="raw" value="{&#10;  &quot;name&quot;: &quot;PAO&quot;,&#10;  &quot;price&quot;: 15.00&#10;}" />
+                          <option name="raw" value="{&#10;  &quot;name&quot;: &quot;MELANCIA&quot;,&#10;  &quot;price&quot;: 15.00&#10;}" />
                           <option name="type" value="JSON" />
                         </bodyState>
                       </option>
